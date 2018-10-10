@@ -1,0 +1,58 @@
+HS
+grep energy hs_result.txt
+FS
+grep energy fs_result.txt
+NT1
+grep energy nt1_result.txt
+NT2
+grep energy nt2_result.txt
+HS
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+istep: 10 temp: 5.998164e-03 energy: -6.936452e+00 pressure: -6.638247e+00 1433279356.683
+istep: 0 temp: 0.000000e+00 energy: -6.484413e+00 pressure: -6.174113e+00  0.000
+istep: 10 temp: 1.536588e-02 energy: -6.507465e+00 pressure: -6.127456e+00 1433279368.760
+istep: 0 temp: 0.000000e+00 energy: -6.400371e+00 pressure: -6.083601e+00  0.000
+istep: 10 temp: 1.695428e-02 energy: -6.425806e+00 pressure: -6.031906e+00 1433279371.180
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+istep: 10 temp: 5.998164e-03 energy: -6.936452e+00 pressure: -6.638247e+00 1433279375.314
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+istep: 10 temp: 5.998164e-03 energy: -6.936452e+00 pressure: -6.638247e+00 1433279381.771
+istep: 0 temp: 0.000000e+00 energy: -6.484413e+00 pressure: -6.174113e+00  0.000
+istep: 10 temp: 1.536588e-02 energy: -6.507465e+00 pressure: -6.127456e+00 1433279385.873
+FS
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+istep: 10 temp: 5.998164e-03 energy: -6.936452e+00 pressure: -6.638247e+00 1433279394.471
+istep: 0 temp: 0.000000e+00 energy: -6.484413e+00 pressure: -6.174113e+00  0.000
+istep: 10 temp: 1.536588e-02 energy: -6.507465e+00 pressure: -6.127456e+00 1433279404.948
+istep: 0 temp: 0.000000e+00 energy: -6.400371e+00 pressure: -6.083601e+00  0.000
+istep: 10 temp: 1.695428e-02 energy: -6.425806e+00 pressure: -6.031906e+00 1433279407.457
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+istep: 10 temp: 5.998164e-03 energy: -6.936452e+00 pressure: -6.638247e+00 1433279409.779
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+istep: 10 temp: 5.998164e-03 energy: -6.936452e+00 pressure: -6.638247e+00 1433279412.648
+istep: 0 temp: 0.000000e+00 energy: -6.484413e+00 pressure: -6.174113e+00  0.000
+istep: 10 temp: 1.536588e-02 energy: -6.507465e+00 pressure: -6.127456e+00 1433279415.665
+NT1
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+istep: 10 temp: 5.998164e-03 energy: -6.936452e+00 pressure: -6.638247e+00 1433279423.547
+istep: 0 temp: 0.000000e+00 energy: -6.484413e+00 pressure: -6.174113e+00  0.000
+istep: 10 temp: 1.536588e-02 energy: -6.507465e+00 pressure: -6.127456e+00 1433279438.787
+istep: 0 temp: 0.000000e+00 energy: -6.400371e+00 pressure: -6.083601e+00  0.000
+istep: 10 temp: 1.695428e-02 energy: -6.425806e+00 pressure: -6.031906e+00 1433279441.561
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+istep: 10 temp: 5.997004e-03 energy: -6.936451e+00 pressure: -6.638247e+00 1433279444.635
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+istep: 10 temp: 5.996991e-03 energy: -6.936451e+00 pressure: -6.638247e+00 1433279448.695
+istep: 0 temp: 0.000000e+00 energy: -6.484413e+00 pressure: -6.174113e+00  0.000
+istep: 10 temp: 1.536530e-02 energy: -6.507464e+00 pressure: -6.127459e+00 1433279452.090
+NT2
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+istep: 10 temp: 5.998164e-03 energy: -6.936452e+00 pressure: -6.638247e+00 1433279462.540
+istep: 0 temp: 0.000000e+00 energy: -6.484413e+00 pressure: -6.174113e+00  0.000
+istep: 10 temp: 1.536588e-02 energy: -6.507465e+00 pressure: -6.127456e+00 1433279477.692
+istep: 0 temp: 0.000000e+00 energy: -6.913547e+00 pressure: -6.642946e+00  0.000
+istep: 10 temp: 6.164212e-03 energy: -6.922798e+00 pressure: -6.624301e+00 1433279482.898
+istep: 0 temp: 0.000000e+00 energy: -6.893158e+00 pressure: -6.623522e+00  0.000
+istep: 10 temp: 6.371088e-03 energy: -6.902721e+00 pressure: -6.604141e+00 1433279486.937
+istep: 0 temp: 0.000000e+00 energy: -6.474859e+00 pressure: -6.165122e+00  0.000
+istep: 10 temp: 1.539588e-02 energy: -6.497968e+00 pressure: -6.118319e+00 1433279490.280

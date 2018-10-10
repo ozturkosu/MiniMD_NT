@@ -1,0 +1,64 @@
+
+The following have been reloaded with a version change:
+  1) Boost/1.47.0 => Boost/1.52.0       3) R/2.15.1 => R/3.1.0
+  2) OpenMPI/1.4.3 => OpenMPI/1.4.4     4) TBB/4.1.0 => TBB/4.1.1.117
+
+# Neighbor Setup: 
+	# done with the old setup.
+# Neighbor Setup: 
+	# done with the old setup.
+# Neighbor Setup: 
+	# done with the old setup.
+# Neighbor Setup: 
+	# done with the old setup.
+# Neighbor Setup: 
+	# done with the old setup.
+# Neighbor Setup: 
+	# done with the old setup.
+# Neighbor Setup: 
+	# done with the old setup.
+# Neighbor Setup: 
+	# done with the old setup.
+# Neighbor Setup: 
+	# done with the old setup.
+# Neighbor Setup: 
+	# done with the old setup.
+# Neighbor Setup: 
+	# done with the old setup.
+# Neighbor Setup: 
+	# done with the old setup.
+# Neighbor Setup: 
+# Neighbor Setup: 
+# Neighbor Setup: 
+# Neighbor Setup: 
+# Neighbor Setup: 
+# Neighbor Setup: 
+# Neighbor Setup: 
+# Neighbor Setup: 
+# Neighbor Setup: 
+[css-059:17138] *** Process received signal ***
+[css-059:17138] Signal: Segmentation fault (11)
+[css-059:17138] Signal code: Address not mapped (1)
+[css-059:17138] Failing at address: 0xc6ddd360
+[css-059:17138] [ 0] /lib64/libpthread.so.0(+0xf710) [0x2b3b5928f710]
+[css-059:17138] [ 1] ./miniMD_intel(_ZN7ForceLJ11compute_NT2ILi1EEEvR4AtomR8Neighbori+0x33d) [0x410cfd]
+[css-059:17138] [ 2] ./miniMD_intel(_ZN7ForceLJ7computeER4AtomR8NeighborR4Commi+0x37f1) [0x40ed31]
+[css-059:17138] [ 3] ./miniMD_intel(main+0x1ada) [0x40695a]
+[css-059:17138] [ 4] /opt/software/ClusterStudio/2013.1/composer_xe_2013.1.117/composer_xe_2013.1.117/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93) [0x2b3b58adb003]
+[css-059:17138] *** End of error message ***
+[css-059:17133] *** Process received signal ***
+[css-059:17133] Signal: Segmentation fault (11)
+[css-059:17133] Signal code: Address not mapped (1)
+[css-059:17133] Failing at address: 0xd655e8bc
+[css-059:17133] [ 0] /lib64/libpthread.so.0(+0xf710) [0x2b81bed3a710]
+[css-059:17133] [ 1] ./miniMD_intel(_ZN7ForceLJ11compute_NT2ILi1EEEvR4AtomR8Neighbori+0x33d) [0x410cfd]
+[css-059:17133] [ 2] ./miniMD_intel(_ZN7ForceLJ7computeER4AtomR8NeighborR4Commi+0x37f1) [0x40ed31]
+[css-059:17133] [ 3] ./miniMD_intel(main+0x1ada) [0x40695a]
+[css-059:17133] [ 4] /opt/software/ClusterStudio/2013.1/composer_xe_2013.1.117/composer_xe_2013.1.117/compiler/lib/intel64/libiomp5.so(__kmp_invoke_microtask+0x93) [0x2b81be586003]
+[css-059:17133] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 8 with PID 17133 on node css-059 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+# Neighbor Setup: 
+# Neighbor Setup: 
+# Neighbor Setup: 

@@ -1,0 +1,3398 @@
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# max_same: 480
+# Checking the pair stencil:
+	#Pair      d1 -    d2
+	  0    -144 - -5183
+	  1    -144 - -5182
+	  2    -144 - -5181
+	  3    -144 - -5180
+	  4    -144 - -3887
+	  5    -144 - -3886
+	  6    -144 - -3885
+	  7    -144 - -3884
+	  8    -144 - -2591
+	  9    -144 - -2590
+	  10    -144 - -2589
+	  11    -144 - -2588
+	  12    -144 - -1295
+	  13    -144 - -1294
+	  14    -144 - -1293
+	  15    -144 - -1292
+	  16    -144 -     1
+	  17    -144 -     2
+	  18    -144 -     3
+	  19    -144 -     4
+	  20    -144 -  1296
+	  21    -144 -  1297
+	  22    -144 -  1298
+	  23    -144 -  1299
+	  24    -144 -  1300
+	  25    -144 -  2592
+	  26    -144 -  2593
+	  27    -144 -  2594
+	  28    -144 -  2595
+	  29    -144 -  2596
+	  30    -144 -  3888
+	  31    -144 -  3889
+	  32    -144 -  3890
+	  33    -144 -  3891
+	  34    -144 -  3892
+	  35    -144 -  5184
+	  36    -144 -  5185
+	  37    -144 -  5186
+	  38    -144 -  5187
+	  39    -144 -  5188
+	  40    -108 - -5183
+	  41    -108 - -5182
+	  42    -108 - -5181
+	  43    -108 - -5180
+	  44    -108 - -3887
+	  45    -108 - -3886
+	  46    -108 - -3885
+	  47    -108 - -3884
+	  48    -108 - -2591
+	  49    -108 - -2590
+	  50    -108 - -2589
+	  51    -108 - -2588
+	  52    -108 - -1295
+	  53    -108 - -1294
+	  54    -108 - -1293
+	  55    -108 - -1292
+	  56    -108 -     1
+	  57    -108 -     2
+	  58    -108 -     3
+	  59    -108 -     4
+	  60    -108 -  1296
+	  61    -108 -  1297
+	  62    -108 -  1298
+	  63    -108 -  1299
+	  64    -108 -  1300
+	  65    -108 -  2592
+	  66    -108 -  2593
+	  67    -108 -  2594
+	  68    -108 -  2595
+	  69    -108 -  2596
+	  70    -108 -  3888
+	  71    -108 -  3889
+	  72    -108 -  3890
+	  73    -108 -  3891
+	  74    -108 -  3892
+	  75    -108 -  5184
+	  76    -108 -  5185
+	  77    -108 -  5186
+	  78    -108 -  5187
+	  79    -108 -  5188
+	  80     -72 - -5183
+	  81     -72 - -5182
+	  82     -72 - -5181
+	  83     -72 - -5180
+	  84     -72 - -3887
+	  85     -72 - -3886
+	  86     -72 - -3885
+	  87     -72 - -3884
+	  88     -72 - -2591
+	  89     -72 - -2590
+	  90     -72 - -2589
+	  91     -72 - -2588
+	  92     -72 - -1295
+	  93     -72 - -1294
+	  94     -72 - -1293
+	  95     -72 - -1292
+	  96     -72 -     1
+	  97     -72 -     2
+	  98     -72 -     3
+	  99     -72 -     4
+	  100     -72 -  1296
+	  101     -72 -  1297
+	  102     -72 -  1298
+	  103     -72 -  1299
+	  104     -72 -  1300
+	  105     -72 -  2592
+	  106     -72 -  2593
+	  107     -72 -  2594
+	  108     -72 -  2595
+	  109     -72 -  2596
+	  110     -72 -  3888
+	  111     -72 -  3889
+	  112     -72 -  3890
+	  113     -72 -  3891
+	  114     -72 -  3892
+	  115     -72 -  5184
+	  116     -72 -  5185
+	  117     -72 -  5186
+	  118     -72 -  5187
+	  119     -72 -  5188
+	  120     -36 - -5183
+	  121     -36 - -5182
+	  122     -36 - -5181
+	  123     -36 - -5180
+	  124     -36 - -3887
+	  125     -36 - -3886
+	  126     -36 - -3885
+	  127     -36 - -3884
+	  128     -36 - -2591
+	  129     -36 - -2590
+	  130     -36 - -2589
+	  131     -36 - -2588
+	  132     -36 - -1295
+	  133     -36 - -1294
+	  134     -36 - -1293
+	  135     -36 - -1292
+	  136     -36 -     1
+	  137     -36 -     2
+	  138     -36 -     3
+	  139     -36 -     4
+	  140     -36 -  1296
+	  141     -36 -  1297
+	  142     -36 -  1298
+	  143     -36 -  1299
+	  144     -36 -  1300
+	  145     -36 -  2592
+	  146     -36 -  2593
+	  147     -36 -  2594
+	  148     -36 -  2595
+	  149     -36 -  2596
+	  150     -36 -  3888
+	  151     -36 -  3889
+	  152     -36 -  3890
+	  153     -36 -  3891
+	  154     -36 -  3892
+	  155     -36 -  5184
+	  156     -36 -  5185
+	  157     -36 -  5186
+	  158     -36 -  5187
+	  159     -36 -  5188
+	  160       0 -    36
+	  161       0 -    72
+	  162       0 -   108
+	  163       0 -   144
+	  164       0 - -5183
+	  165       0 - -5182
+	  166       0 - -5181
+	  167       0 - -5180
+	  168       0 - -3887
+	  169       0 - -3886
+	  170       0 - -3885
+	  171       0 - -3884
+	  172       0 - -2591
+	  173       0 - -2590
+	  174       0 - -2589
+	  175       0 - -2588
+	  176       0 - -1295
+	  177       0 - -1294
+	  178       0 - -1293
+	  179       0 - -1292
+	  180       0 -     1
+	  181       0 -     2
+	  182       0 -     3
+	  183       0 -     4
+	  184       0 -  1296
+	  185       0 -  1297
+	  186       0 -  1298
+	  187       0 -  1299
+	  188       0 -  1300
+	  189       0 -  2592
+	  190       0 -  2593
+	  191       0 -  2594
+	  192       0 -  2595
+	  193       0 -  2596
+	  194       0 -  3888
+	  195       0 -  3889
+	  196       0 -  3890
+	  197       0 -  3891
+	  198       0 -  3892
+	  199       0 -  5184
+	  200       0 -  5185
+	  201       0 -  5186
+	  202       0 -  5187
+	  203       0 -  5188
+	  204      36 - -5183
+	  205      36 - -5182
+	  206      36 - -5181
+	  207      36 - -5180
+	  208      36 - -3887
+	  209      36 - -3886
+	  210      36 - -3885
+	  211      36 - -3884
+	  212      36 - -2591
+	  213      36 - -2590
+	  214      36 - -2589
+	  215      36 - -2588
+	  216      36 - -1295
+	  217      36 - -1294
+	  218      36 - -1293
+	  219      36 - -1292
+	  220      36 -     1
+	  221      36 -     2
+	  222      36 -     3
+	  223      36 -     4
+	  224      36 -  1296
+	  225      36 -  1297
+	  226      36 -  1298
+	  227      36 -  1299
+	  228      36 -  1300
+	  229      36 -  2592
+	  230      36 -  2593
+	  231      36 -  2594
+	  232      36 -  2595
+	  233      36 -  2596
+	  234      36 -  3888
+	  235      36 -  3889
+	  236      36 -  3890
+	  237      36 -  3891
+	  238      36 -  3892
+	  239      36 -  5184
+	  240      36 -  5185
+	  241      36 -  5186
+	  242      36 -  5187
+	  243      36 -  5188
+	  244      72 - -5183
+	  245      72 - -5182
+	  246      72 - -5181
+	  247      72 - -5180
+	  248      72 - -3887
+	  249      72 - -3886
+	  250      72 - -3885
+	  251      72 - -3884
+	  252      72 - -2591
+	  253      72 - -2590
+	  254      72 - -2589
+	  255      72 - -2588
+	  256      72 - -1295
+	  257      72 - -1294
+	  258      72 - -1293
+	  259      72 - -1292
+	  260      72 -     1
+	  261      72 -     2
+	  262      72 -     3
+	  263      72 -     4
+	  264      72 -  1296
+	  265      72 -  1297
+	  266      72 -  1298
+	  267      72 -  1299
+	  268      72 -  1300
+	  269      72 -  2592
+	  270      72 -  2593
+	  271      72 -  2594
+	  272      72 -  2595
+	  273      72 -  2596
+	  274      72 -  3888
+	  275      72 -  3889
+	  276      72 -  3890
+	  277      72 -  3891
+	  278      72 -  3892
+	  279      72 -  5184
+	  280      72 -  5185
+	  281      72 -  5186
+	  282      72 -  5187
+	  283      72 -  5188
+	  284     108 - -5183
+	  285     108 - -5182
+	  286     108 - -5181
+	  287     108 - -5180
+	  288     108 - -3887
+	  289     108 - -3886
+	  290     108 - -3885
+	  291     108 - -3884
+	  292     108 - -2591
+	  293     108 - -2590
+	  294     108 - -2589
+	  295     108 - -2588
+	  296     108 - -1295
+	  297     108 - -1294
+	  298     108 - -1293
+	  299     108 - -1292
+	  300     108 -     1
+	  301     108 -     2
+	  302     108 -     3
+	  303     108 -     4
+	  304     108 -  1296
+	  305     108 -  1297
+	  306     108 -  1298
+	  307     108 -  1299
+	  308     108 -  1300
+	  309     108 -  2592
+	  310     108 -  2593
+	  311     108 -  2594
+	  312     108 -  2595
+	  313     108 -  2596
+	  314     108 -  3888
+	  315     108 -  3889
+	  316     108 -  3890
+	  317     108 -  3891
+	  318     108 -  3892
+	  319     108 -  5184
+	  320     108 -  5185
+	  321     108 -  5186
+	  322     108 -  5187
+	  323     108 -  5188
+	  324     144 - -5183
+	  325     144 - -5182
+	  326     144 - -5181
+	  327     144 - -5180
+	  328     144 - -3887
+	  329     144 - -3886
+	  330     144 - -3885
+	  331     144 - -3884
+	  332     144 - -2591
+	  333     144 - -2590
+	  334     144 - -2589
+	  335     144 - -2588
+	  336     144 - -1295
+	  337     144 - -1294
+	  338     144 - -1293
+	  339     144 - -1292
+	  340     144 -     1
+	  341     144 -     2
+	  342     144 -     3
+	  343     144 -     4
+	  344     144 -  1296
+	  345     144 -  1297
+	  346     144 -  1298
+	  347     144 -  1299
+	  348     144 -  1300
+	  349     144 -  2592
+	  350     144 -  2593
+	  351     144 -  2594
+	  352     144 -  2595
+	  353     144 -  2596
+	  354     144 -  3888
+	  355     144 -  3889
+	  356     144 -  3890
+	  357     144 -  3891
+	  358     144 -  3892
+	  359     144 -  5184
+	  360     144 -  5185
+	  361     144 -  5186
+	  362     144 -  5187
+	  363     144 -  5188
+# Coloring the bins and marking local ones:
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 1
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.8536 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 1.8277 seconds
+total number of neighbors is 102594304
+force comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_hma<1> - MPI+OpenMP, based on the on-node NT algorithm - Tower-Plate form  - coloring to prevent race conditions
+istep: 10 temp: 5.998164e-03 energy: -6.936452e+00 pressure: -6.638247e+00 1433279423.547
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 1 10 131072 13.568885 13.554674 0.000000 0.000031 0.014180 96597.473892 96597.473892 PERF_SUMMARY 0.000000
+
+
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  23  16
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 17 10
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 18 14
+	# zlo zhi nlocbinz:  5 10 6
+	# max_same: 120
+# Checking the pair stencil:
+	#Pair      d1 -    d2
+	  0    -144 - -3311
+	  1    -144 - -3310
+	  2    -144 - -3309
+	  3    -144 - -3308
+	  4    -144 - -2483
+	  5    -144 - -2482
+	  6    -144 - -2481
+	  7    -144 - -2480
+	  8    -144 - -1655
+	  9    -144 - -1654
+	  10    -144 - -1653
+	  11    -144 - -1652
+	  12    -144 -  -827
+	  13    -144 -  -826
+	  14    -144 -  -825
+	  15    -144 -  -824
+	  16    -144 -     1
+	  17    -144 -     2
+	  18    -144 -     3
+	  19    -144 -     4
+	  20    -144 -   828
+	  21    -144 -   829
+	  22    -144 -   830
+	  23    -144 -   831
+	  24    -144 -   832
+	  25    -144 -  1656
+	  26    -144 -  1657
+	  27    -144 -  1658
+	  28    -144 -  1659
+	  29    -144 -  1660
+	  30    -144 -  2484
+	  31    -144 -  2485
+	  32    -144 -  2486
+	  33    -144 -  2487
+	  34    -144 -  2488
+	  35    -144 -  3312
+	  36    -144 -  3313
+	  37    -144 -  3314
+	  38    -144 -  3315
+	  39    -144 -  3316
+	  40    -108 - -3311
+	  41    -108 - -3310
+	  42    -108 - -3309
+	  43    -108 - -3308
+	  44    -108 - -2483
+	  45    -108 - -2482
+	  46    -108 - -2481
+	  47    -108 - -2480
+	  48    -108 - -1655
+	  49    -108 - -1654
+	  50    -108 - -1653
+	  51    -108 - -1652
+	  52    -108 -  -827
+	  53    -108 -  -826
+	  54    -108 -  -825
+	  55    -108 -  -824
+	  56    -108 -     1
+	  57    -108 -     2
+	  58    -108 -     3
+	  59    -108 -     4
+	  60    -108 -   828
+	  61    -108 -   829
+	  62    -108 -   830
+	  63    -108 -   831
+	  64    -108 -   832
+	  65    -108 -  1656
+	  66    -108 -  1657
+	  67    -108 -  1658
+	  68    -108 -  1659
+	  69    -108 -  1660
+	  70    -108 -  2484
+	  71    -108 -  2485
+	  72    -108 -  2486
+	  73    -108 -  2487
+	  74    -108 -  2488
+	  75    -108 -  3312
+	  76    -108 -  3313
+	  77    -108 -  3314
+	  78    -108 -  3315
+	  79    -108 -  3316
+	  80     -72 - -3311
+	  81     -72 - -3310
+	  82     -72 - -3309
+	  83     -72 - -3308
+	  84     -72 - -2483
+	  85     -72 - -2482
+	  86     -72 - -2481
+	  87     -72 - -2480
+	  88     -72 - -1655
+	  89     -72 - -1654
+	  90     -72 - -1653
+	  91     -72 - -1652
+	  92     -72 -  -827
+	  93     -72 -  -826
+	  94     -72 -  -825
+	  95     -72 -  -824
+	  96     -72 -     1
+	  97     -72 -     2
+	  98     -72 -     3
+	  99     -72 -     4
+	  100     -72 -   828
+	  101     -72 -   829
+	  102     -72 -   830
+	  103     -72 -   831
+	  104     -72 -   832
+	  105     -72 -  1656
+	  106     -72 -  1657
+	  107     -72 -  1658
+	  108     -72 -  1659
+	  109     -72 -  1660
+	  110     -72 -  2484
+	  111     -72 -  2485
+	  112     -72 -  2486
+	  113     -72 -  2487
+	  114     -72 -  2488
+	  115     -72 -  3312
+	  116     -72 -  3313
+	  117     -72 -  3314
+	  118     -72 -  3315
+	  119     -72 -  3316
+	  120     -36 - -3311
+	  121     -36 - -3310
+	  122     -36 - -3309
+	  123     -36 - -3308
+	  124     -36 - -2483
+	  125     -36 - -2482
+	  126     -36 - -2481
+	  127     -36 - -2480
+	  128     -36 - -1655
+	  129     -36 - -1654
+	  130     -36 - -1653
+	  131     -36 - -1652
+	  132     -36 -  -827
+	  133     -36 -  -826
+	  134     -36 -  -825
+	  135     -36 -  -824
+	  136     -36 -     1
+	  137     -36 -     2
+	  138     -36 -     3
+	  139     -36 -     4
+	  140     -36 -   828
+	  141     -36 -   829
+	  142     -36 -   830
+	  143     -36 -   831
+	  144     -36 -   832
+	  145     -36 -  1656
+	  146     -36 -  1657
+	  147     -36 -  1658
+	  148     -36 -  1659
+	  149     -36 -  1660
+	  150     -36 -  2484
+	  151     -36 -  2485
+	  152     -36 -  2486
+	  153     -36 -  2487
+	  154     -36 -  2488
+	  155     -36 -  3312
+	  156     -36 -  3313
+	  157     -36 -  3314
+	  158     -36 -  3315
+	  159     -36 -  3316
+	  160       0 -    36
+	  161       0 -    72
+	  162       0 -   108
+	  163       0 -   144
+	  164       0 - -3311
+	  165       0 - -3310
+	  166       0 - -3309
+	  167       0 - -3308
+	  168       0 - -2483
+	  169       0 - -2482
+	  170       0 - -2481
+	  171       0 - -2480
+	  172       0 - -1655
+	  173       0 - -1654
+	  174       0 - -1653
+	  175       0 - -1652
+	  176       0 -  -827
+	  177       0 -  -826
+	  178       0 -  -825
+	  179       0 -  -824
+	  180       0 -     1
+	  181       0 -     2
+	  182       0 -     3
+	  183       0 -     4
+	  184       0 -   828
+	  185       0 -   829
+	  186       0 -   830
+	  187       0 -   831
+	  188       0 -   832
+	  189       0 -  1656
+	  190       0 -  1657
+	  191       0 -  1658
+	  192       0 -  1659
+	  193       0 -  1660
+	  194       0 -  2484
+	  195       0 -  2485
+	  196       0 -  2486
+	  197       0 -  2487
+	  198       0 -  2488
+	  199       0 -  3312
+	  200       0 -  3313
+	  201       0 -  3314
+	  202       0 -  3315
+	  203       0 -  3316
+	  204      36 - -3311
+	  205      36 - -3310
+	  206      36 - -3309
+	  207      36 - -3308
+	  208      36 - -2483
+	  209      36 - -2482
+	  210      36 - -2481
+	  211      36 - -2480
+	  212      36 - -1655
+	  213      36 - -1654
+	  214      36 - -1653
+	  215      36 - -1652
+	  216      36 -  -827
+	  217      36 -  -826
+	  218      36 -  -825
+	  219      36 -  -824
+	  220      36 -     1
+	  221      36 -     2
+	  222      36 -     3
+	  223      36 -     4
+	  224      36 -   828
+	  225      36 -   829
+	  226      36 -   830
+	  227      36 -   831
+	  228      36 -   832
+	  229      36 -  1656
+	  230      36 -  1657
+	  231      36 -  1658
+	  232      36 -  1659
+	  233      36 -  1660
+	  234      36 -  2484
+	  235      36 -  2485
+	  236      36 -  2486
+	  237      36 -  2487
+	  238      36 -  2488
+	  239      36 -  3312
+	  240      36 -  3313
+	  241      36 -  3314
+	  242      36 -  3315
+	  243      36 -  3316
+	  244      72 - -3311
+	  245      72 - -3310
+	  246      72 - -3309
+	  247      72 - -3308
+	  248      72 - -2483
+	  249      72 - -2482
+	  250      72 - -2481
+	  251      72 - -2480
+	  252      72 - -1655
+	  253      72 - -1654
+	  254      72 - -1653
+	  255      72 - -1652
+	  256      72 -  -827
+	  257      72 -  -826
+	  258      72 -  -825
+	  259      72 -  -824
+	  260      72 -     1
+	  261      72 -     2
+	  262      72 -     3
+	  263      72 -     4
+	  264      72 -   828
+	  265      72 -   829
+	  266      72 -   830
+	  267      72 -   831
+	  268      72 -   832
+	  269      72 -  1656
+	  270      72 -  1657
+	  271      72 -  1658
+	  272      72 -  1659
+	  273      72 -  1660
+	  274      72 -  2484
+	  275      72 -  2485
+	  276      72 -  2486
+	  277      72 -  2487
+	  278      72 -  2488
+	  279      72 -  3312
+	  280      72 -  3313
+	  281      72 -  3314
+	  282      72 -  3315
+	  283      72 -  3316
+	  284     108 - -3311
+	  285     108 - -3310
+	  286     108 - -3309
+	  287     108 - -3308
+	  288     108 - -2483
+	  289     108 - -2482
+	  290     108 - -2481
+	  291     108 - -2480
+	  292     108 - -1655
+	  293     108 - -1654
+	  294     108 - -1653
+	  295     108 - -1652
+	  296     108 -  -827
+	  297     108 -  -826
+	  298     108 -  -825
+	  299     108 -  -824
+	  300     108 -     1
+	  301     108 -     2
+	  302     108 -     3
+	  303     108 -     4
+	  304     108 -   828
+	  305     108 -   829
+	  306     108 -   830
+	  307     108 -   831
+	  308     108 -   832
+	  309     108 -  1656
+	  310     108 -  1657
+	  311     108 -  1658
+	  312     108 -  1659
+	  313     108 -  1660
+	  314     108 -  2484
+	  315     108 -  2485
+	  316     108 -  2486
+	  317     108 -  2487
+	  318     108 -  2488
+	  319     108 -  3312
+	  320     108 -  3313
+	  321     108 -  3314
+	  322     108 -  3315
+	  323     108 -  3316
+	  324     144 - -3311
+	  325     144 - -3310
+	  326     144 - -3309
+	  327     144 - -3308
+	  328     144 - -2483
+	  329     144 - -2482
+	  330     144 - -2481
+	  331     144 - -2480
+	  332     144 - -1655
+	  333     144 - -1654
+	  334     144 - -1653
+	  335     144 - -1652
+	  336     144 -  -827
+	  337     144 -  -826
+	  338     144 -  -825
+	  339     144 -  -824
+	  340     144 -     1
+	  341     144 -     2
+	  342     144 -     3
+	  343     144 -     4
+	  344     144 -   828
+	  345     144 -   829
+	  346     144 -   830
+	  347     144 -   831
+	  348     144 -   832
+	  349     144 -  1656
+	  350     144 -  1657
+	  351     144 -  1658
+	  352     144 -  1659
+	  353     144 -  1660
+	  354     144 -  2484
+	  355     144 -  2485
+	  356     144 -  2486
+	  357     144 -  2487
+	  358     144 -  2488
+	  359     144 -  3312
+	  360     144 -  3313
+	  361     144 -  3314
+	  362     144 -  3315
+	  363     144 -  3316
+# Coloring the bins and marking local ones:
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 10
+	# OpenMP threads: 1
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0524 seconds
+total estimated number of neighbors is 6661388
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0524 seconds
+total estimated number of neighbors is 6661388
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0577 seconds
+total estimated number of neighbors is 7460309
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0575 seconds
+total estimated number of neighbors is 7460309
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0589 seconds
+total estimated number of neighbors is 7460309
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0592 seconds
+total estimated number of neighbors is 7460309
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0599 seconds
+total estimated number of neighbors is 7460309
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0600 seconds
+total estimated number of neighbors is 7460309
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0589 seconds
+total estimated number of neighbors is 7460309
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0591 seconds
+total estimated number of neighbors is 7460309
+neighbor generation took 0.1267 seconds
+total number of neighbors is 6661388
+neighbor generation took 0.1275 seconds
+total number of neighbors is 6661388
+neighbor generation took 0.1348 seconds
+total number of neighbors is 7460309
+neighbor generation took 0.1423 seconds
+total number of neighbors is 7460309
+neighbor generation took 0.1414 seconds
+total number of neighbors is 7460309
+neighbor generation took 0.1417 seconds
+total number of neighbors is 7460309
+neighbor generation took 0.1463 seconds
+total number of neighbors is 7460309
+neighbor generation took 0.1506 seconds
+total number of neighbors is 7460309
+neighbor generation took 0.1526 seconds
+total number of neighbors is 7460309
+neighbor generation took 0.1525 seconds
+total number of neighbors is 7460309
+force comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.484413e+00 pressure: -6.174113e+00  0.000
+using lj force routine: compute_hma<1> - MPI+OpenMP, based on the on-node NT algorithm - Tower-Plate form  - coloring to prevent race conditions
+istep: 10 temp: 1.536588e-02 energy: -6.507465e+00 pressure: -6.127456e+00 1433279438.787
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+10 1 10 131072 1.115329 1.077266 0.000000 0.036175 0.001888 1175187.095691 117518.709569 PERF_SUMMARY 0.000000
+
+
+force compforce compforce compforce compforce compforce compforce compforce compforce comp# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  23  23  16
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  17 17 10
+	# xlo xhi nlocbinx:  5 18 14
+	# ylo zhi nlocbiny:  5 18 14
+	# zlo zhi nlocbinz:  5 10 6
+	# max_same: 60
+# Checking the pair stencil:
+	#Pair      d1 -    d2
+	  0     -92 - -2115
+	  1     -92 - -2114
+	  2     -92 - -2113
+	  3     -92 - -2112
+	  4     -92 - -1586
+	  5     -92 - -1585
+	  6     -92 - -1584
+	  7     -92 - -1583
+	  8     -92 - -1057
+	  9     -92 - -1056
+	  10     -92 - -1055
+	  11     -92 - -1054
+	  12     -92 -  -528
+	  13     -92 -  -527
+	  14     -92 -  -526
+	  15     -92 -  -525
+	  16     -92 -     1
+	  17     -92 -     2
+	  18     -92 -     3
+	  19     -92 -     4
+	  20     -92 -   529
+	  21     -92 -   530
+	  22     -92 -   531
+	  23     -92 -   532
+	  24     -92 -   533
+	  25     -92 -  1058
+	  26     -92 -  1059
+	  27     -92 -  1060
+	  28     -92 -  1061
+	  29     -92 -  1062
+	  30     -92 -  1587
+	  31     -92 -  1588
+	  32     -92 -  1589
+	  33     -92 -  1590
+	  34     -92 -  1591
+	  35     -92 -  2116
+	  36     -92 -  2117
+	  37     -92 -  2118
+	  38     -92 -  2119
+	  39     -92 -  2120
+	  40     -69 - -2115
+	  41     -69 - -2114
+	  42     -69 - -2113
+	  43     -69 - -2112
+	  44     -69 - -1586
+	  45     -69 - -1585
+	  46     -69 - -1584
+	  47     -69 - -1583
+	  48     -69 - -1057
+	  49     -69 - -1056
+	  50     -69 - -1055
+	  51     -69 - -1054
+	  52     -69 -  -528
+	  53     -69 -  -527
+	  54     -69 -  -526
+	  55     -69 -  -525
+	  56     -69 -     1
+	  57     -69 -     2
+	  58     -69 -     3
+	  59     -69 -     4
+	  60     -69 -   529
+	  61     -69 -   530
+	  62     -69 -   531
+	  63     -69 -   532
+	  64     -69 -   533
+	  65     -69 -  1058
+	  66     -69 -  1059
+	  67     -69 -  1060
+	  68     -69 -  1061
+	  69     -69 -  1062
+	  70     -69 -  1587
+	  71     -69 -  1588
+	  72     -69 -  1589
+	  73     -69 -  1590
+	  74     -69 -  1591
+	  75     -69 -  2116
+	  76     -69 -  2117
+	  77     -69 -  2118
+	  78     -69 -  2119
+	  79     -69 -  2120
+	  80     -46 - -2115
+	  81     -46 - -2114
+	  82     -46 - -2113
+	  83     -46 - -2112
+	  84     -46 - -1586
+	  85     -46 - -1585
+	  86     -46 - -1584
+	  87     -46 - -1583
+	  88     -46 - -1057
+	  89     -46 - -1056
+	  90     -46 - -1055
+	  91     -46 - -1054
+	  92     -46 -  -528
+	  93     -46 -  -527
+	  94     -46 -  -526
+	  95     -46 -  -525
+	  96     -46 -     1
+	  97     -46 -     2
+	  98     -46 -     3
+	  99     -46 -     4
+	  100     -46 -   529
+	  101     -46 -   530
+	  102     -46 -   531
+	  103     -46 -   532
+	  104     -46 -   533
+	  105     -46 -  1058
+	  106     -46 -  1059
+	  107     -46 -  1060
+	  108     -46 -  1061
+	  109     -46 -  1062
+	  110     -46 -  1587
+	  111     -46 -  1588
+	  112     -46 -  1589
+	  113     -46 -  1590
+	  114     -46 -  1591
+	  115     -46 -  2116
+	  116     -46 -  2117
+	  117     -46 -  2118
+	  118     -46 -  2119
+	  119     -46 -  2120
+	  120     -23 - -2115
+	  121     -23 - -2114
+	  122     -23 - -2113
+	  123     -23 - -2112
+	  124     -23 - -1586
+	  125     -23 - -1585
+	  126     -23 - -1584
+	  127     -23 - -1583
+	  128     -23 - -1057
+	  129     -23 - -1056
+	  130     -23 - -1055
+	  131     -23 - -1054
+	  132     -23 -  -528
+	  133     -23 -  -527
+	  134     -23 -  -526
+	  135     -23 -  -525
+	  136     -23 -     1
+	  137     -23 -     2
+	  138     -23 -     3
+	  139     -23 -     4
+	  140     -23 -   529
+	  141     -23 -   530
+	  142     -23 -   531
+	  143     -23 -   532
+	  144     -23 -   533
+	  145     -23 -  1058
+	  146     -23 -  1059
+	  147     -23 -  1060
+	  148     -23 -  1061
+	  149     -23 -  1062
+	  150     -23 -  1587
+	  151     -23 -  1588
+	  152     -23 -  1589
+	  153     -23 -  1590
+	  154     -23 -  1591
+	  155     -23 -  2116
+	  156     -23 -  2117
+	  157     -23 -  2118
+	  158     -23 -  2119
+	  159     -23 -  2120
+	  160       0 -    23
+	  161       0 -    46
+	  162       0 -    69
+	  163       0 -    92
+	  164       0 - -2115
+	  165       0 - -2114
+	  166       0 - -2113
+	  167       0 - -2112
+	  168       0 - -1586
+	  169       0 - -1585
+	  170       0 - -1584
+	  171       0 - -1583
+	  172       0 - -1057
+	  173       0 - -1056
+	  174       0 - -1055
+	  175       0 - -1054
+	  176       0 -  -528
+	  177       0 -  -527
+	  178       0 -  -526
+	  179       0 -  -525
+	  180       0 -     1
+	  181       0 -     2
+	  182       0 -     3
+	  183       0 -     4
+	  184       0 -   529
+	  185       0 -   530
+	  186       0 -   531
+	  187       0 -   532
+	  188       0 -   533
+	  189       0 -  1058
+	  190       0 -  1059
+	  191       0 -  1060
+	  192       0 -  1061
+	  193       0 -  1062
+	  194       0 -  1587
+	  195       0 -  1588
+	  196       0 -  1589
+	  197       0 -  1590
+	  198       0 -  1591
+	  199       0 -  2116
+	  200       0 -  2117
+	  201       0 -  2118
+	  202       0 -  2119
+	  203       0 -  2120
+	  204      23 - -2115
+	  205      23 - -2114
+	  206      23 - -2113
+	  207      23 - -2112
+	  208      23 - -1586
+	  209      23 - -1585
+	  210      23 - -1584
+	  211      23 - -1583
+	  212      23 - -1057
+	  213      23 - -1056
+	  214      23 - -1055
+	  215      23 - -1054
+	  216      23 -  -528
+	  217      23 -  -527
+	  218      23 -  -526
+	  219      23 -  -525
+	  220      23 -     1
+	  221      23 -     2
+	  222      23 -     3
+	  223      23 -     4
+	  224      23 -   529
+	  225      23 -   530
+	  226      23 -   531
+	  227      23 -   532
+	  228      23 -   533
+	  229      23 -  1058
+	  230      23 -  1059
+	  231      23 -  1060
+	  232      23 -  1061
+	  233      23 -  1062
+	  234      23 -  1587
+	  235      23 -  1588
+	  236      23 -  1589
+	  237      23 -  1590
+	  238      23 -  1591
+	  239      23 -  2116
+	  240      23 -  2117
+	  241      23 -  2118
+	  242      23 -  2119
+	  243      23 -  2120
+	  244      46 - -2115
+	  245      46 - -2114
+	  246      46 - -2113
+	  247      46 - -2112
+	  248      46 - -1586
+	  249      46 - -1585
+	  250      46 - -1584
+	  251      46 - -1583
+	  252      46 - -1057
+	  253      46 - -1056
+	  254      46 - -1055
+	  255      46 - -1054
+	  256      46 -  -528
+	  257      46 -  -527
+	  258      46 -  -526
+	  259      46 -  -525
+	  260      46 -     1
+	  261      46 -     2
+	  262      46 -     3
+	  263      46 -     4
+	  264      46 -   529
+	  265      46 -   530
+	  266      46 -   531
+	  267      46 -   532
+	  268      46 -   533
+	  269      46 -  1058
+	  270      46 -  1059
+	  271      46 -  1060
+	  272      46 -  1061
+	  273      46 -  1062
+	  274      46 -  1587
+	  275      46 -  1588
+	  276      46 -  1589
+	  277      46 -  1590
+	  278      46 -  1591
+	  279      46 -  2116
+	  280      46 -  2117
+	  281      46 -  2118
+	  282      46 -  2119
+	  283      46 -  2120
+	  284      69 - -2115
+	  285      69 - -2114
+	  286      69 - -2113
+	  287      69 - -2112
+	  288      69 - -1586
+	  289      69 - -1585
+	  290      69 - -1584
+	  291      69 - -1583
+	  292      69 - -1057
+	  293      69 - -1056
+	  294      69 - -1055
+	  295      69 - -1054
+	  296      69 -  -528
+	  297      69 -  -527
+	  298      69 -  -526
+	  299      69 -  -525
+	  300      69 -     1
+	  301      69 -     2
+	  302      69 -     3
+	  303      69 -     4
+	  304      69 -   529
+	  305      69 -   530
+	  306      69 -   531
+	  307      69 -   532
+	  308      69 -   533
+	  309      69 -  1058
+	  310      69 -  1059
+	  311      69 -  1060
+	  312      69 -  1061
+	  313      69 -  1062
+	  314      69 -  1587
+	  315      69 -  1588
+	  316      69 -  1589
+	  317      69 -  1590
+	  318      69 -  1591
+	  319      69 -  2116
+	  320      69 -  2117
+	  321      69 -  2118
+	  322      69 -  2119
+	  323      69 -  2120
+	  324      92 - -2115
+	  325      92 - -2114
+	  326      92 - -2113
+	  327      92 - -2112
+	  328      92 - -1586
+	  329      92 - -1585
+	  330      92 - -1584
+	  331      92 - -1583
+	  332      92 - -1057
+	  333      92 - -1056
+	  334      92 - -1055
+	  335      92 - -1054
+	  336      92 -  -528
+	  337      92 -  -527
+	  338      92 -  -526
+	  339      92 -  -525
+	  340      92 -     1
+	  341      92 -     2
+	  342      92 -     3
+	  343      92 -     4
+	  344      92 -   529
+	  345      92 -   530
+	  346      92 -   531
+	  347      92 -   532
+	  348      92 -   533
+	  349      92 -  1058
+	  350      92 -  1059
+	  351      92 -  1060
+	  352      92 -  1061
+	  353      92 -  1062
+	  354      92 -  1587
+	  355      92 -  1588
+	  356      92 -  1589
+	  357      92 -  1590
+	  358      92 -  1591
+	  359      92 -  2116
+	  360      92 -  2117
+	  361      92 -  2118
+	  362      92 -  2119
+	  363      92 -  2120
+# Coloring the bins and marking local ones:
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 20
+	# OpenMP threads: 1
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0244 seconds
+total estimated number of neighbors is 3120620
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0244 seconds
+total estimated number of neighbors is 3120620
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0245 seconds
+total estimated number of neighbors is 3120620
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0245 seconds
+total estimated number of neighbors is 3120620
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0274 seconds
+total estimated number of neighbors is 3495989
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0268 seconds
+total estimated number of neighbors is 3495989
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0275 seconds
+total estimated number of neighbors is 3495989
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0278 seconds
+total estimated number of neighbors is 3495989
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0278 seconds
+total estimated number of neighbors is 3495989
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0274 seconds
+total estimated number of neighbors is 3495989
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0268 seconds
+total estimated number of neighbors is 3495989
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0274 seconds
+total estimated number of neighbors is 3495989
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0280 seconds
+total estimated number of neighbors is 3495989
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0274 seconds
+total estimated number of neighbors is 3495989
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0268 seconds
+total estimated number of neighbors is 3495989
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0275 seconds
+total estimated number of neighbors is 3495989
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0278 seconds
+total estimated number of neighbors is 3495989
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0274 seconds
+total estimated number of neighbors is 3495989
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0268 seconds
+total estimated number of neighbors is 3495989
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0274 seconds
+total estimated number of neighbors is 3495989
+neighbor generation took 0.0705 seconds
+total number of neighbors is 3120620
+neighbor generation took 0.0716 seconds
+total number of neighbors is 3120620
+neighbor generation took 0.0720 seconds
+total number of neighbors is 3120620
+neighbor generation took 0.0730 seconds
+total number of neighbors is 3120620
+neighbor generation took 0.0776 seconds
+total number of neighbors is 3495989
+neighbor generation took 0.0789 seconds
+total number of neighbors is 3495989
+neighbor generation took 0.0791 seconds
+total number of neighbors is 3495989
+neighbor generation took 0.0812 seconds
+total number of neighbors is 3495989
+neighbor generation took 0.0808 seconds
+total number of neighbors is 3495989
+neighbor generation took 0.0834 seconds
+total number of neighbors is 3495989
+neighbor generation took 0.0838 seconds
+total number of neighbors is 3495989
+neighbor generation took 0.0841 seconds
+total number of neighbors is 3495989
+neighbor generation took 0.0830 seconds
+total number of neighbors is 3495989
+neighbor generation took 0.0840 seconds
+total number of neighbors is 3495989
+neighbor generation took 0.0853 seconds
+total number of neighbors is 3495989
+neighbor generation took 0.0856 seconds
+total number of neighbors is 3495989
+neighbor generation took 0.0849 seconds
+total number of neighbors is 3495989
+neighbor generation took 0.0870 seconds
+total number of neighbors is 3495989
+neighbor generation took 0.0871 seconds
+total number of neighbors is 3495989
+neighbor generation took 0.0866 seconds
+total number of neighbors is 3495989
+force comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.400371e+00 pressure: -6.083601e+00  0.000
+using lj force routine: compute_hma<1> - MPI+OpenMP, based on the on-node NT algorithm - Tower-Plate form  - coloring to prevent race conditions
+istep: 10 temp: 1.695428e-02 energy: -6.425806e+00 pressure: -6.031906e+00 1433279441.561
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+20 1 10 131072 0.537038 0.534103 0.000000 0.001997 0.000938 2440647.342455 122032.367123 PERF_SUMMARY 0.000000
+
+
+force compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce comp# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# max_same: 480
+# Checking the pair stencil:
+	#Pair      d1 -    d2
+	  0    -144 - -5183
+	  1    -144 - -5182
+	  2    -144 - -5181
+	  3    -144 - -5180
+	  4    -144 - -3887
+	  5    -144 - -3886
+	  6    -144 - -3885
+	  7    -144 - -3884
+	  8    -144 - -2591
+	  9    -144 - -2590
+	  10    -144 - -2589
+	  11    -144 - -2588
+	  12    -144 - -1295
+	  13    -144 - -1294
+	  14    -144 - -1293
+	  15    -144 - -1292
+	  16    -144 -     1
+	  17    -144 -     2
+	  18    -144 -     3
+	  19    -144 -     4
+	  20    -144 -  1296
+	  21    -144 -  1297
+	  22    -144 -  1298
+	  23    -144 -  1299
+	  24    -144 -  1300
+	  25    -144 -  2592
+	  26    -144 -  2593
+	  27    -144 -  2594
+	  28    -144 -  2595
+	  29    -144 -  2596
+	  30    -144 -  3888
+	  31    -144 -  3889
+	  32    -144 -  3890
+	  33    -144 -  3891
+	  34    -144 -  3892
+	  35    -144 -  5184
+	  36    -144 -  5185
+	  37    -144 -  5186
+	  38    -144 -  5187
+	  39    -144 -  5188
+	  40    -108 - -5183
+	  41    -108 - -5182
+	  42    -108 - -5181
+	  43    -108 - -5180
+	  44    -108 - -3887
+	  45    -108 - -3886
+	  46    -108 - -3885
+	  47    -108 - -3884
+	  48    -108 - -2591
+	  49    -108 - -2590
+	  50    -108 - -2589
+	  51    -108 - -2588
+	  52    -108 - -1295
+	  53    -108 - -1294
+	  54    -108 - -1293
+	  55    -108 - -1292
+	  56    -108 -     1
+	  57    -108 -     2
+	  58    -108 -     3
+	  59    -108 -     4
+	  60    -108 -  1296
+	  61    -108 -  1297
+	  62    -108 -  1298
+	  63    -108 -  1299
+	  64    -108 -  1300
+	  65    -108 -  2592
+	  66    -108 -  2593
+	  67    -108 -  2594
+	  68    -108 -  2595
+	  69    -108 -  2596
+	  70    -108 -  3888
+	  71    -108 -  3889
+	  72    -108 -  3890
+	  73    -108 -  3891
+	  74    -108 -  3892
+	  75    -108 -  5184
+	  76    -108 -  5185
+	  77    -108 -  5186
+	  78    -108 -  5187
+	  79    -108 -  5188
+	  80     -72 - -5183
+	  81     -72 - -5182
+	  82     -72 - -5181
+	  83     -72 - -5180
+	  84     -72 - -3887
+	  85     -72 - -3886
+	  86     -72 - -3885
+	  87     -72 - -3884
+	  88     -72 - -2591
+	  89     -72 - -2590
+	  90     -72 - -2589
+	  91     -72 - -2588
+	  92     -72 - -1295
+	  93     -72 - -1294
+	  94     -72 - -1293
+	  95     -72 - -1292
+	  96     -72 -     1
+	  97     -72 -     2
+	  98     -72 -     3
+	  99     -72 -     4
+	  100     -72 -  1296
+	  101     -72 -  1297
+	  102     -72 -  1298
+	  103     -72 -  1299
+	  104     -72 -  1300
+	  105     -72 -  2592
+	  106     -72 -  2593
+	  107     -72 -  2594
+	  108     -72 -  2595
+	  109     -72 -  2596
+	  110     -72 -  3888
+	  111     -72 -  3889
+	  112     -72 -  3890
+	  113     -72 -  3891
+	  114     -72 -  3892
+	  115     -72 -  5184
+	  116     -72 -  5185
+	  117     -72 -  5186
+	  118     -72 -  5187
+	  119     -72 -  5188
+	  120     -36 - -5183
+	  121     -36 - -5182
+	  122     -36 - -5181
+	  123     -36 - -5180
+	  124     -36 - -3887
+	  125     -36 - -3886
+	  126     -36 - -3885
+	  127     -36 - -3884
+	  128     -36 - -2591
+	  129     -36 - -2590
+	  130     -36 - -2589
+	  131     -36 - -2588
+	  132     -36 - -1295
+	  133     -36 - -1294
+	  134     -36 - -1293
+	  135     -36 - -1292
+	  136     -36 -     1
+	  137     -36 -     2
+	  138     -36 -     3
+	  139     -36 -     4
+	  140     -36 -  1296
+	  141     -36 -  1297
+	  142     -36 -  1298
+	  143     -36 -  1299
+	  144     -36 -  1300
+	  145     -36 -  2592
+	  146     -36 -  2593
+	  147     -36 -  2594
+	  148     -36 -  2595
+	  149     -36 -  2596
+	  150     -36 -  3888
+	  151     -36 -  3889
+	  152     -36 -  3890
+	  153     -36 -  3891
+	  154     -36 -  3892
+	  155     -36 -  5184
+	  156     -36 -  5185
+	  157     -36 -  5186
+	  158     -36 -  5187
+	  159     -36 -  5188
+	  160       0 -    36
+	  161       0 -    72
+	  162       0 -   108
+	  163       0 -   144
+	  164       0 - -5183
+	  165       0 - -5182
+	  166       0 - -5181
+	  167       0 - -5180
+	  168       0 - -3887
+	  169       0 - -3886
+	  170       0 - -3885
+	  171       0 - -3884
+	  172       0 - -2591
+	  173       0 - -2590
+	  174       0 - -2589
+	  175       0 - -2588
+	  176       0 - -1295
+	  177       0 - -1294
+	  178       0 - -1293
+	  179       0 - -1292
+	  180       0 -     1
+	  181       0 -     2
+	  182       0 -     3
+	  183       0 -     4
+	  184       0 -  1296
+	  185       0 -  1297
+	  186       0 -  1298
+	  187       0 -  1299
+	  188       0 -  1300
+	  189       0 -  2592
+	  190       0 -  2593
+	  191       0 -  2594
+	  192       0 -  2595
+	  193       0 -  2596
+	  194       0 -  3888
+	  195       0 -  3889
+	  196       0 -  3890
+	  197       0 -  3891
+	  198       0 -  3892
+	  199       0 -  5184
+	  200       0 -  5185
+	  201       0 -  5186
+	  202       0 -  5187
+	  203       0 -  5188
+	  204      36 - -5183
+	  205      36 - -5182
+	  206      36 - -5181
+	  207      36 - -5180
+	  208      36 - -3887
+	  209      36 - -3886
+	  210      36 - -3885
+	  211      36 - -3884
+	  212      36 - -2591
+	  213      36 - -2590
+	  214      36 - -2589
+	  215      36 - -2588
+	  216      36 - -1295
+	  217      36 - -1294
+	  218      36 - -1293
+	  219      36 - -1292
+	  220      36 -     1
+	  221      36 -     2
+	  222      36 -     3
+	  223      36 -     4
+	  224      36 -  1296
+	  225      36 -  1297
+	  226      36 -  1298
+	  227      36 -  1299
+	  228      36 -  1300
+	  229      36 -  2592
+	  230      36 -  2593
+	  231      36 -  2594
+	  232      36 -  2595
+	  233      36 -  2596
+	  234      36 -  3888
+	  235      36 -  3889
+	  236      36 -  3890
+	  237      36 -  3891
+	  238      36 -  3892
+	  239      36 -  5184
+	  240      36 -  5185
+	  241      36 -  5186
+	  242      36 -  5187
+	  243      36 -  5188
+	  244      72 - -5183
+	  245      72 - -5182
+	  246      72 - -5181
+	  247      72 - -5180
+	  248      72 - -3887
+	  249      72 - -3886
+	  250      72 - -3885
+	  251      72 - -3884
+	  252      72 - -2591
+	  253      72 - -2590
+	  254      72 - -2589
+	  255      72 - -2588
+	  256      72 - -1295
+	  257      72 - -1294
+	  258      72 - -1293
+	  259      72 - -1292
+	  260      72 -     1
+	  261      72 -     2
+	  262      72 -     3
+	  263      72 -     4
+	  264      72 -  1296
+	  265      72 -  1297
+	  266      72 -  1298
+	  267      72 -  1299
+	  268      72 -  1300
+	  269      72 -  2592
+	  270      72 -  2593
+	  271      72 -  2594
+	  272      72 -  2595
+	  273      72 -  2596
+	  274      72 -  3888
+	  275      72 -  3889
+	  276      72 -  3890
+	  277      72 -  3891
+	  278      72 -  3892
+	  279      72 -  5184
+	  280      72 -  5185
+	  281      72 -  5186
+	  282      72 -  5187
+	  283      72 -  5188
+	  284     108 - -5183
+	  285     108 - -5182
+	  286     108 - -5181
+	  287     108 - -5180
+	  288     108 - -3887
+	  289     108 - -3886
+	  290     108 - -3885
+	  291     108 - -3884
+	  292     108 - -2591
+	  293     108 - -2590
+	  294     108 - -2589
+	  295     108 - -2588
+	  296     108 - -1295
+	  297     108 - -1294
+	  298     108 - -1293
+	  299     108 - -1292
+	  300     108 -     1
+	  301     108 -     2
+	  302     108 -     3
+	  303     108 -     4
+	  304     108 -  1296
+	  305     108 -  1297
+	  306     108 -  1298
+	  307     108 -  1299
+	  308     108 -  1300
+	  309     108 -  2592
+	  310     108 -  2593
+	  311     108 -  2594
+	  312     108 -  2595
+	  313     108 -  2596
+	  314     108 -  3888
+	  315     108 -  3889
+	  316     108 -  3890
+	  317     108 -  3891
+	  318     108 -  3892
+	  319     108 -  5184
+	  320     108 -  5185
+	  321     108 -  5186
+	  322     108 -  5187
+	  323     108 -  5188
+	  324     144 - -5183
+	  325     144 - -5182
+	  326     144 - -5181
+	  327     144 - -5180
+	  328     144 - -3887
+	  329     144 - -3886
+	  330     144 - -3885
+	  331     144 - -3884
+	  332     144 - -2591
+	  333     144 - -2590
+	  334     144 - -2589
+	  335     144 - -2588
+	  336     144 - -1295
+	  337     144 - -1294
+	  338     144 - -1293
+	  339     144 - -1292
+	  340     144 -     1
+	  341     144 -     2
+	  342     144 -     3
+	  343     144 -     4
+	  344     144 -  1296
+	  345     144 -  1297
+	  346     144 -  1298
+	  347     144 -  1299
+	  348     144 -  1300
+	  349     144 -  2592
+	  350     144 -  2593
+	  351     144 -  2594
+	  352     144 -  2595
+	  353     144 -  2596
+	  354     144 -  3888
+	  355     144 -  3889
+	  356     144 -  3890
+	  357     144 -  3891
+	  358     144 -  3892
+	  359     144 -  5184
+	  360     144 -  5185
+	  361     144 -  5186
+	  362     144 -  5187
+	  363     144 -  5188
+# Coloring the bins and marking local ones:
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 10
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0939 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 0.1980 seconds
+total number of neighbors is 102594304
+force compforce compforce compforce compforce compforce compforce compforce compforce compforce comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_hma<1> - MPI+OpenMP, based on the on-node NT algorithm - Tower-Plate form  - coloring to prevent race conditions
+istep: 10 temp: 5.997004e-03 energy: -6.936451e+00 pressure: -6.638247e+00 1433279444.635
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 10 10 131072 1.628065 1.623934 0.000000 0.000198 0.003933 805078.367291 80507.836729 PERF_SUMMARY 0.000000
+
+
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# max_same: 480
+# Checking the pair stencil:
+	#Pair      d1 -    d2
+	  0    -144 - -5183
+	  1    -144 - -5182
+	  2    -144 - -5181
+	  3    -144 - -5180
+	  4    -144 - -3887
+	  5    -144 - -3886
+	  6    -144 - -3885
+	  7    -144 - -3884
+	  8    -144 - -2591
+	  9    -144 - -2590
+	  10    -144 - -2589
+	  11    -144 - -2588
+	  12    -144 - -1295
+	  13    -144 - -1294
+	  14    -144 - -1293
+	  15    -144 - -1292
+	  16    -144 -     1
+	  17    -144 -     2
+	  18    -144 -     3
+	  19    -144 -     4
+	  20    -144 -  1296
+	  21    -144 -  1297
+	  22    -144 -  1298
+	  23    -144 -  1299
+	  24    -144 -  1300
+	  25    -144 -  2592
+	  26    -144 -  2593
+	  27    -144 -  2594
+	  28    -144 -  2595
+	  29    -144 -  2596
+	  30    -144 -  3888
+	  31    -144 -  3889
+	  32    -144 -  3890
+	  33    -144 -  3891
+	  34    -144 -  3892
+	  35    -144 -  5184
+	  36    -144 -  5185
+	  37    -144 -  5186
+	  38    -144 -  5187
+	  39    -144 -  5188
+	  40    -108 - -5183
+	  41    -108 - -5182
+	  42    -108 - -5181
+	  43    -108 - -5180
+	  44    -108 - -3887
+	  45    -108 - -3886
+	  46    -108 - -3885
+	  47    -108 - -3884
+	  48    -108 - -2591
+	  49    -108 - -2590
+	  50    -108 - -2589
+	  51    -108 - -2588
+	  52    -108 - -1295
+	  53    -108 - -1294
+	  54    -108 - -1293
+	  55    -108 - -1292
+	  56    -108 -     1
+	  57    -108 -     2
+	  58    -108 -     3
+	  59    -108 -     4
+	  60    -108 -  1296
+	  61    -108 -  1297
+	  62    -108 -  1298
+	  63    -108 -  1299
+	  64    -108 -  1300
+	  65    -108 -  2592
+	  66    -108 -  2593
+	  67    -108 -  2594
+	  68    -108 -  2595
+	  69    -108 -  2596
+	  70    -108 -  3888
+	  71    -108 -  3889
+	  72    -108 -  3890
+	  73    -108 -  3891
+	  74    -108 -  3892
+	  75    -108 -  5184
+	  76    -108 -  5185
+	  77    -108 -  5186
+	  78    -108 -  5187
+	  79    -108 -  5188
+	  80     -72 - -5183
+	  81     -72 - -5182
+	  82     -72 - -5181
+	  83     -72 - -5180
+	  84     -72 - -3887
+	  85     -72 - -3886
+	  86     -72 - -3885
+	  87     -72 - -3884
+	  88     -72 - -2591
+	  89     -72 - -2590
+	  90     -72 - -2589
+	  91     -72 - -2588
+	  92     -72 - -1295
+	  93     -72 - -1294
+	  94     -72 - -1293
+	  95     -72 - -1292
+	  96     -72 -     1
+	  97     -72 -     2
+	  98     -72 -     3
+	  99     -72 -     4
+	  100     -72 -  1296
+	  101     -72 -  1297
+	  102     -72 -  1298
+	  103     -72 -  1299
+	  104     -72 -  1300
+	  105     -72 -  2592
+	  106     -72 -  2593
+	  107     -72 -  2594
+	  108     -72 -  2595
+	  109     -72 -  2596
+	  110     -72 -  3888
+	  111     -72 -  3889
+	  112     -72 -  3890
+	  113     -72 -  3891
+	  114     -72 -  3892
+	  115     -72 -  5184
+	  116     -72 -  5185
+	  117     -72 -  5186
+	  118     -72 -  5187
+	  119     -72 -  5188
+	  120     -36 - -5183
+	  121     -36 - -5182
+	  122     -36 - -5181
+	  123     -36 - -5180
+	  124     -36 - -3887
+	  125     -36 - -3886
+	  126     -36 - -3885
+	  127     -36 - -3884
+	  128     -36 - -2591
+	  129     -36 - -2590
+	  130     -36 - -2589
+	  131     -36 - -2588
+	  132     -36 - -1295
+	  133     -36 - -1294
+	  134     -36 - -1293
+	  135     -36 - -1292
+	  136     -36 -     1
+	  137     -36 -     2
+	  138     -36 -     3
+	  139     -36 -     4
+	  140     -36 -  1296
+	  141     -36 -  1297
+	  142     -36 -  1298
+	  143     -36 -  1299
+	  144     -36 -  1300
+	  145     -36 -  2592
+	  146     -36 -  2593
+	  147     -36 -  2594
+	  148     -36 -  2595
+	  149     -36 -  2596
+	  150     -36 -  3888
+	  151     -36 -  3889
+	  152     -36 -  3890
+	  153     -36 -  3891
+	  154     -36 -  3892
+	  155     -36 -  5184
+	  156     -36 -  5185
+	  157     -36 -  5186
+	  158     -36 -  5187
+	  159     -36 -  5188
+	  160       0 -    36
+	  161       0 -    72
+	  162       0 -   108
+	  163       0 -   144
+	  164       0 - -5183
+	  165       0 - -5182
+	  166       0 - -5181
+	  167       0 - -5180
+	  168       0 - -3887
+	  169       0 - -3886
+	  170       0 - -3885
+	  171       0 - -3884
+	  172       0 - -2591
+	  173       0 - -2590
+	  174       0 - -2589
+	  175       0 - -2588
+	  176       0 - -1295
+	  177       0 - -1294
+	  178       0 - -1293
+	  179       0 - -1292
+	  180       0 -     1
+	  181       0 -     2
+	  182       0 -     3
+	  183       0 -     4
+	  184       0 -  1296
+	  185       0 -  1297
+	  186       0 -  1298
+	  187       0 -  1299
+	  188       0 -  1300
+	  189       0 -  2592
+	  190       0 -  2593
+	  191       0 -  2594
+	  192       0 -  2595
+	  193       0 -  2596
+	  194       0 -  3888
+	  195       0 -  3889
+	  196       0 -  3890
+	  197       0 -  3891
+	  198       0 -  3892
+	  199       0 -  5184
+	  200       0 -  5185
+	  201       0 -  5186
+	  202       0 -  5187
+	  203       0 -  5188
+	  204      36 - -5183
+	  205      36 - -5182
+	  206      36 - -5181
+	  207      36 - -5180
+	  208      36 - -3887
+	  209      36 - -3886
+	  210      36 - -3885
+	  211      36 - -3884
+	  212      36 - -2591
+	  213      36 - -2590
+	  214      36 - -2589
+	  215      36 - -2588
+	  216      36 - -1295
+	  217      36 - -1294
+	  218      36 - -1293
+	  219      36 - -1292
+	  220      36 -     1
+	  221      36 -     2
+	  222      36 -     3
+	  223      36 -     4
+	  224      36 -  1296
+	  225      36 -  1297
+	  226      36 -  1298
+	  227      36 -  1299
+	  228      36 -  1300
+	  229      36 -  2592
+	  230      36 -  2593
+	  231      36 -  2594
+	  232      36 -  2595
+	  233      36 -  2596
+	  234      36 -  3888
+	  235      36 -  3889
+	  236      36 -  3890
+	  237      36 -  3891
+	  238      36 -  3892
+	  239      36 -  5184
+	  240      36 -  5185
+	  241      36 -  5186
+	  242      36 -  5187
+	  243      36 -  5188
+	  244      72 - -5183
+	  245      72 - -5182
+	  246      72 - -5181
+	  247      72 - -5180
+	  248      72 - -3887
+	  249      72 - -3886
+	  250      72 - -3885
+	  251      72 - -3884
+	  252      72 - -2591
+	  253      72 - -2590
+	  254      72 - -2589
+	  255      72 - -2588
+	  256      72 - -1295
+	  257      72 - -1294
+	  258      72 - -1293
+	  259      72 - -1292
+	  260      72 -     1
+	  261      72 -     2
+	  262      72 -     3
+	  263      72 -     4
+	  264      72 -  1296
+	  265      72 -  1297
+	  266      72 -  1298
+	  267      72 -  1299
+	  268      72 -  1300
+	  269      72 -  2592
+	  270      72 -  2593
+	  271      72 -  2594
+	  272      72 -  2595
+	  273      72 -  2596
+	  274      72 -  3888
+	  275      72 -  3889
+	  276      72 -  3890
+	  277      72 -  3891
+	  278      72 -  3892
+	  279      72 -  5184
+	  280      72 -  5185
+	  281      72 -  5186
+	  282      72 -  5187
+	  283      72 -  5188
+	  284     108 - -5183
+	  285     108 - -5182
+	  286     108 - -5181
+	  287     108 - -5180
+	  288     108 - -3887
+	  289     108 - -3886
+	  290     108 - -3885
+	  291     108 - -3884
+	  292     108 - -2591
+	  293     108 - -2590
+	  294     108 - -2589
+	  295     108 - -2588
+	  296     108 - -1295
+	  297     108 - -1294
+	  298     108 - -1293
+	  299     108 - -1292
+	  300     108 -     1
+	  301     108 -     2
+	  302     108 -     3
+	  303     108 -     4
+	  304     108 -  1296
+	  305     108 -  1297
+	  306     108 -  1298
+	  307     108 -  1299
+	  308     108 -  1300
+	  309     108 -  2592
+	  310     108 -  2593
+	  311     108 -  2594
+	  312     108 -  2595
+	  313     108 -  2596
+	  314     108 -  3888
+	  315     108 -  3889
+	  316     108 -  3890
+	  317     108 -  3891
+	  318     108 -  3892
+	  319     108 -  5184
+	  320     108 -  5185
+	  321     108 -  5186
+	  322     108 -  5187
+	  323     108 -  5188
+	  324     144 - -5183
+	  325     144 - -5182
+	  326     144 - -5181
+	  327     144 - -5180
+	  328     144 - -3887
+	  329     144 - -3886
+	  330     144 - -3885
+	  331     144 - -3884
+	  332     144 - -2591
+	  333     144 - -2590
+	  334     144 - -2589
+	  335     144 - -2588
+	  336     144 - -1295
+	  337     144 - -1294
+	  338     144 - -1293
+	  339     144 - -1292
+	  340     144 -     1
+	  341     144 -     2
+	  342     144 -     3
+	  343     144 -     4
+	  344     144 -  1296
+	  345     144 -  1297
+	  346     144 -  1298
+	  347     144 -  1299
+	  348     144 -  1300
+	  349     144 -  2592
+	  350     144 -  2593
+	  351     144 -  2594
+	  352     144 -  2595
+	  353     144 -  2596
+	  354     144 -  3888
+	  355     144 -  3889
+	  356     144 -  3890
+	  357     144 -  3891
+	  358     144 -  3892
+	  359     144 -  5184
+	  360     144 -  5185
+	  361     144 -  5186
+	  362     144 -  5187
+	  363     144 -  5188
+# Coloring the bins and marking local ones:
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 20
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0476 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 0.1030 seconds
+total number of neighbors is 102594304
+force compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_hma<1> - MPI+OpenMP, based on the on-node NT algorithm - Tower-Plate form  - coloring to prevent race conditions
+istep: 10 temp: 5.996991e-03 energy: -6.936451e+00 pressure: -6.638247e+00 1433279448.695
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 20 10 131072 0.892195 0.888692 0.000000 0.000221 0.003282 1469095.903993 73454.795200 PERF_SUMMARY 0.000000
+
+
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  23  16
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 17 10
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 18 14
+	# zlo zhi nlocbinz:  5 10 6
+	# max_same: 120
+# Checking the pair stencil:
+	#Pair      d1 -    d2
+	  0    -144 - -3311
+	  1    -144 - -3310
+	  2    -144 - -3309
+	  3    -144 - -3308
+	  4    -144 - -2483
+	  5    -144 - -2482
+	  6    -144 - -2481
+	  7    -144 - -2480
+	  8    -144 - -1655
+	  9    -144 - -1654
+	  10    -144 - -1653
+	  11    -144 - -1652
+	  12    -144 -  -827
+	  13    -144 -  -826
+	  14    -144 -  -825
+	  15    -144 -  -824
+	  16    -144 -     1
+	  17    -144 -     2
+	  18    -144 -     3
+	  19    -144 -     4
+	  20    -144 -   828
+	  21    -144 -   829
+	  22    -144 -   830
+	  23    -144 -   831
+	  24    -144 -   832
+	  25    -144 -  1656
+	  26    -144 -  1657
+	  27    -144 -  1658
+	  28    -144 -  1659
+	  29    -144 -  1660
+	  30    -144 -  2484
+	  31    -144 -  2485
+	  32    -144 -  2486
+	  33    -144 -  2487
+	  34    -144 -  2488
+	  35    -144 -  3312
+	  36    -144 -  3313
+	  37    -144 -  3314
+	  38    -144 -  3315
+	  39    -144 -  3316
+	  40    -108 - -3311
+	  41    -108 - -3310
+	  42    -108 - -3309
+	  43    -108 - -3308
+	  44    -108 - -2483
+	  45    -108 - -2482
+	  46    -108 - -2481
+	  47    -108 - -2480
+	  48    -108 - -1655
+	  49    -108 - -1654
+	  50    -108 - -1653
+	  51    -108 - -1652
+	  52    -108 -  -827
+	  53    -108 -  -826
+	  54    -108 -  -825
+	  55    -108 -  -824
+	  56    -108 -     1
+	  57    -108 -     2
+	  58    -108 -     3
+	  59    -108 -     4
+	  60    -108 -   828
+	  61    -108 -   829
+	  62    -108 -   830
+	  63    -108 -   831
+	  64    -108 -   832
+	  65    -108 -  1656
+	  66    -108 -  1657
+	  67    -108 -  1658
+	  68    -108 -  1659
+	  69    -108 -  1660
+	  70    -108 -  2484
+	  71    -108 -  2485
+	  72    -108 -  2486
+	  73    -108 -  2487
+	  74    -108 -  2488
+	  75    -108 -  3312
+	  76    -108 -  3313
+	  77    -108 -  3314
+	  78    -108 -  3315
+	  79    -108 -  3316
+	  80     -72 - -3311
+	  81     -72 - -3310
+	  82     -72 - -3309
+	  83     -72 - -3308
+	  84     -72 - -2483
+	  85     -72 - -2482
+	  86     -72 - -2481
+	  87     -72 - -2480
+	  88     -72 - -1655
+	  89     -72 - -1654
+	  90     -72 - -1653
+	  91     -72 - -1652
+	  92     -72 -  -827
+	  93     -72 -  -826
+	  94     -72 -  -825
+	  95     -72 -  -824
+	  96     -72 -     1
+	  97     -72 -     2
+	  98     -72 -     3
+	  99     -72 -     4
+	  100     -72 -   828
+	  101     -72 -   829
+	  102     -72 -   830
+	  103     -72 -   831
+	  104     -72 -   832
+	  105     -72 -  1656
+	  106     -72 -  1657
+	  107     -72 -  1658
+	  108     -72 -  1659
+	  109     -72 -  1660
+	  110     -72 -  2484
+	  111     -72 -  2485
+	  112     -72 -  2486
+	  113     -72 -  2487
+	  114     -72 -  2488
+	  115     -72 -  3312
+	  116     -72 -  3313
+	  117     -72 -  3314
+	  118     -72 -  3315
+	  119     -72 -  3316
+	  120     -36 - -3311
+	  121     -36 - -3310
+	  122     -36 - -3309
+	  123     -36 - -3308
+	  124     -36 - -2483
+	  125     -36 - -2482
+	  126     -36 - -2481
+	  127     -36 - -2480
+	  128     -36 - -1655
+	  129     -36 - -1654
+	  130     -36 - -1653
+	  131     -36 - -1652
+	  132     -36 -  -827
+	  133     -36 -  -826
+	  134     -36 -  -825
+	  135     -36 -  -824
+	  136     -36 -     1
+	  137     -36 -     2
+	  138     -36 -     3
+	  139     -36 -     4
+	  140     -36 -   828
+	  141     -36 -   829
+	  142     -36 -   830
+	  143     -36 -   831
+	  144     -36 -   832
+	  145     -36 -  1656
+	  146     -36 -  1657
+	  147     -36 -  1658
+	  148     -36 -  1659
+	  149     -36 -  1660
+	  150     -36 -  2484
+	  151     -36 -  2485
+	  152     -36 -  2486
+	  153     -36 -  2487
+	  154     -36 -  2488
+	  155     -36 -  3312
+	  156     -36 -  3313
+	  157     -36 -  3314
+	  158     -36 -  3315
+	  159     -36 -  3316
+	  160       0 -    36
+	  161       0 -    72
+	  162       0 -   108
+	  163       0 -   144
+	  164       0 - -3311
+	  165       0 - -3310
+	  166       0 - -3309
+	  167       0 - -3308
+	  168       0 - -2483
+	  169       0 - -2482
+	  170       0 - -2481
+	  171       0 - -2480
+	  172       0 - -1655
+	  173       0 - -1654
+	  174       0 - -1653
+	  175       0 - -1652
+	  176       0 -  -827
+	  177       0 -  -826
+	  178       0 -  -825
+	  179       0 -  -824
+	  180       0 -     1
+	  181       0 -     2
+	  182       0 -     3
+	  183       0 -     4
+	  184       0 -   828
+	  185       0 -   829
+	  186       0 -   830
+	  187       0 -   831
+	  188       0 -   832
+	  189       0 -  1656
+	  190       0 -  1657
+	  191       0 -  1658
+	  192       0 -  1659
+	  193       0 -  1660
+	  194       0 -  2484
+	  195       0 -  2485
+	  196       0 -  2486
+	  197       0 -  2487
+	  198       0 -  2488
+	  199       0 -  3312
+	  200       0 -  3313
+	  201       0 -  3314
+	  202       0 -  3315
+	  203       0 -  3316
+	  204      36 - -3311
+	  205      36 - -3310
+	  206      36 - -3309
+	  207      36 - -3308
+	  208      36 - -2483
+	  209      36 - -2482
+	  210      36 - -2481
+	  211      36 - -2480
+	  212      36 - -1655
+	  213      36 - -1654
+	  214      36 - -1653
+	  215      36 - -1652
+	  216      36 -  -827
+	  217      36 -  -826
+	  218      36 -  -825
+	  219      36 -  -824
+	  220      36 -     1
+	  221      36 -     2
+	  222      36 -     3
+	  223      36 -     4
+	  224      36 -   828
+	  225      36 -   829
+	  226      36 -   830
+	  227      36 -   831
+	  228      36 -   832
+	  229      36 -  1656
+	  230      36 -  1657
+	  231      36 -  1658
+	  232      36 -  1659
+	  233      36 -  1660
+	  234      36 -  2484
+	  235      36 -  2485
+	  236      36 -  2486
+	  237      36 -  2487
+	  238      36 -  2488
+	  239      36 -  3312
+	  240      36 -  3313
+	  241      36 -  3314
+	  242      36 -  3315
+	  243      36 -  3316
+	  244      72 - -3311
+	  245      72 - -3310
+	  246      72 - -3309
+	  247      72 - -3308
+	  248      72 - -2483
+	  249      72 - -2482
+	  250      72 - -2481
+	  251      72 - -2480
+	  252      72 - -1655
+	  253      72 - -1654
+	  254      72 - -1653
+	  255      72 - -1652
+	  256      72 -  -827
+	  257      72 -  -826
+	  258      72 -  -825
+	  259      72 -  -824
+	  260      72 -     1
+	  261      72 -     2
+	  262      72 -     3
+	  263      72 -     4
+	  264      72 -   828
+	  265      72 -   829
+	  266      72 -   830
+	  267      72 -   831
+	  268      72 -   832
+	  269      72 -  1656
+	  270      72 -  1657
+	  271      72 -  1658
+	  272      72 -  1659
+	  273      72 -  1660
+	  274      72 -  2484
+	  275      72 -  2485
+	  276      72 -  2486
+	  277      72 -  2487
+	  278      72 -  2488
+	  279      72 -  3312
+	  280      72 -  3313
+	  281      72 -  3314
+	  282      72 -  3315
+	  283      72 -  3316
+	  284     108 - -3311
+	  285     108 - -3310
+	  286     108 - -3309
+	  287     108 - -3308
+	  288     108 - -2483
+	  289     108 - -2482
+	  290     108 - -2481
+	  291     108 - -2480
+	  292     108 - -1655
+	  293     108 - -1654
+	  294     108 - -1653
+	  295     108 - -1652
+	  296     108 -  -827
+	  297     108 -  -826
+	  298     108 -  -825
+	  299     108 -  -824
+	  300     108 -     1
+	  301     108 -     2
+	  302     108 -     3
+	  303     108 -     4
+	  304     108 -   828
+	  305     108 -   829
+	  306     108 -   830
+	  307     108 -   831
+	  308     108 -   832
+	  309     108 -  1656
+	  310     108 -  1657
+	  311     108 -  1658
+	  312     108 -  1659
+	  313     108 -  1660
+	  314     108 -  2484
+	  315     108 -  2485
+	  316     108 -  2486
+	  317     108 -  2487
+	  318     108 -  2488
+	  319     108 -  3312
+	  320     108 -  3313
+	  321     108 -  3314
+	  322     108 -  3315
+	  323     108 -  3316
+	  324     144 - -3311
+	  325     144 - -3310
+	  326     144 - -3309
+	  327     144 - -3308
+	  328     144 - -2483
+	  329     144 - -2482
+	  330     144 - -2481
+	  331     144 - -2480
+	  332     144 - -1655
+	  333     144 - -1654
+	  334     144 - -1653
+	  335     144 - -1652
+	  336     144 -  -827
+	  337     144 -  -826
+	  338     144 -  -825
+	  339     144 -  -824
+	  340     144 -     1
+	  341     144 -     2
+	  342     144 -     3
+	  343     144 -     4
+	  344     144 -   828
+	  345     144 -   829
+	  346     144 -   830
+	  347     144 -   831
+	  348     144 -   832
+	  349     144 -  1656
+	  350     144 -  1657
+	  351     144 -  1658
+	  352     144 -  1659
+	  353     144 -  1660
+	  354     144 -  2484
+	  355     144 -  2485
+	  356     144 -  2486
+	  357     144 -  2487
+	  358     144 -  2488
+	  359     144 -  3312
+	  360     144 -  3313
+	  361     144 -  3314
+	  362     144 -  3315
+	  363     144 -  3316
+# Coloring the bins and marking local ones:
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 10
+	# OpenMP threads: 10
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0438 seconds
+total estimated number of neighbors is 7460309
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0468 seconds
+total estimated number of neighbors is 7460309
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0491 seconds
+total estimated number of neighbors is 7460309
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0342 seconds
+total estimated number of neighbors is 6661388
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0472 seconds
+total estimated number of neighbors is 7460309
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0374 seconds
+total estimated number of neighbors is 7460309
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0356 seconds
+total estimated number of neighbors is 7460309
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0503 seconds
+total estimated number of neighbors is 7460309
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0554 seconds
+total estimated number of neighbors is 7460309
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0375 seconds
+total estimated number of neighbors is 6661388
+neighbor generation took 0.0684 seconds
+total number of neighbors is 7460309
+force compforce compneighbor generation took 0.0932 seconds
+total number of neighbors is 7460309
+force compforce compneighbor generation took 0.0889 seconds
+total number of neighbors is 6661388
+force compneighbor generation took 0.0930 seconds
+total number of neighbors is 7460309
+neighbor generation took 0.0710 seconds
+force comptotal number of neighbors is 7460309
+force compforce compforce compforce compforce compforce compforce compforce compneighbor generation took 0.0790 seconds
+total number of neighbors is 7460309
+neighbor generation took 0.0643 seconds
+total number of neighbors is 7460309
+neighbor generation took 0.0852 seconds
+total number of neighbors is 7460309
+neighbor generation took 0.0568 seconds
+total number of neighbors is 6661388
+neighbor generation took 0.0675 seconds
+total number of neighbors is 7460309
+force compforce compforce compforce compforce compforce compforce compforce compforce compforce comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.484413e+00 pressure: -6.174113e+00  0.000
+using lj force routine: compute_hma<1> - MPI+OpenMP, based on the on-node NT algorithm - Tower-Plate form  - coloring to prevent race conditions
+istep: 10 temp: 1.536530e-02 energy: -6.507464e+00 pressure: -6.127459e+00 1433279452.090
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+10 10 10 131072 3.735453 1.569294 0.000000 1.873993 0.292166 350886.502509 3508.865025 PERF_SUMMARY 0.000000
+
+
+force compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce comp# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# max_same: 480
+# Coloring the bins and marking local ones:
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 1
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.8294 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 1.7762 seconds
+total number of neighbors is 102594304
+force comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_hma<1> - MPI+OpenMP, based on the on-node NT algorithm - Tower-Plate form  - coloring to prevent race conditions
+istep: 10 temp: 5.998164e-03 energy: -6.936452e+00 pressure: -6.638247e+00 1434301687.712
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 1 10 131072 13.211618 13.197498 0.000000 0.000030 0.014090 99209.650574 99209.650574 PERF_SUMMARY 0.000000
+
+
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# max_same: 480
+# Coloring the bins and marking local ones:
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 2
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.4296 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 0.8995 seconds
+total number of neighbors is 102594304
+force compforce comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_hma<1> - MPI+OpenMP, based on the on-node NT algorithm - Tower-Plate form  - coloring to prevent race conditions
+istep: 10 temp: 5.997994e-03 energy: -6.936452e+00 pressure: -6.638247e+00 1434301705.231
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 2 10 131072 6.986404 6.974236 0.000000 0.000067 0.012101 187610.101868 93805.050934 PERF_SUMMARY 0.000000
+
+
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# max_same: 480
+# Coloring the bins and marking local ones:
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 4
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.2195 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 0.4622 seconds
+total number of neighbors is 102594304
+force compforce compforce compforce comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_hma<1> - MPI+OpenMP, based on the on-node NT algorithm - Tower-Plate form  - coloring to prevent race conditions
+istep: 10 temp: 5.997642e-03 energy: -6.936452e+00 pressure: -6.638247e+00 1434301715.463
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 4 10 131072 3.704472 3.697214 0.000000 0.000103 0.007155 353821.019937 88455.254984 PERF_SUMMARY 0.000000
+
+
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# max_same: 480
+# Coloring the bins and marking local ones:
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 6
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.1504 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 0.3166 seconds
+total number of neighbors is 102594304
+force compforce compforce compforce compforce compforce comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_hma<1> - MPI+OpenMP, based on the on-node NT algorithm - Tower-Plate form  - coloring to prevent race conditions
+istep: 10 temp: 5.997389e-03 energy: -6.936452e+00 pressure: -6.638247e+00 1434301722.204
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 6 10 131072 2.575108 2.569708 0.000000 0.000136 0.005263 508996.117401 84832.686234 PERF_SUMMARY 0.000000
+
+
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# max_same: 480
+# Coloring the bins and marking local ones:
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 8
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.1151 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 0.2433 seconds
+total number of neighbors is 102594304
+force compforce compforce compforce compforce compforce compforce compforce comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_hma<1> - MPI+OpenMP, based on the on-node NT algorithm - Tower-Plate form  - coloring to prevent race conditions
+istep: 10 temp: 5.997155e-03 energy: -6.936451e+00 pressure: -6.638247e+00 1434301727.518
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 8 10 131072 1.991140 1.986571 0.000000 0.000163 0.004406 658276.121357 82284.515170 PERF_SUMMARY 0.000000
+
+
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# max_same: 480
+# Coloring the bins and marking local ones:
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 10
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0936 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 0.1957 seconds
+total number of neighbors is 102594304
+force compforce compforce compforce compforce compforce compforce compforce compforce compforce comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_hma<1> - MPI+OpenMP, based on the on-node NT algorithm - Tower-Plate form  - coloring to prevent race conditions
+istep: 10 temp: 5.996666e-03 energy: -6.936451e+00 pressure: -6.638248e+00 1434301732.091
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 10 10 131072 1.627388 1.623505 0.000000 0.000183 0.003700 805413.336959 80541.333696 PERF_SUMMARY 0.000000
+
+
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# max_same: 480
+# Coloring the bins and marking local ones:
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 12
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0782 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 0.1641 seconds
+total number of neighbors is 102594304
+force compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_hma<1> - MPI+OpenMP, based on the on-node NT algorithm - Tower-Plate form  - coloring to prevent race conditions
+istep: 10 temp: 5.996738e-03 energy: -6.936451e+00 pressure: -6.638248e+00 1434301736.315
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 12 10 131072 1.371550 1.367761 0.000000 0.000235 0.003554 955648.826782 79637.402232 PERF_SUMMARY 0.000000
+
+
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# max_same: 480
+# Coloring the bins and marking local ones:
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 14
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0670 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 0.1411 seconds
+total number of neighbors is 102594304
+force compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_hma<1> - MPI+OpenMP, based on the on-node NT algorithm - Tower-Plate form  - coloring to prevent race conditions
+istep: 10 temp: 5.996857e-03 energy: -6.936451e+00 pressure: -6.638247e+00 1434301740.144
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 14 10 131072 1.190580 1.187124 0.000000 0.000211 0.003245 1100908.901354 78636.350097 PERF_SUMMARY 0.000000
+
+
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# max_same: 480
+# Coloring the bins and marking local ones:
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 16
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0590 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 0.1240 seconds
+total number of neighbors is 102594304
+force compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_hma<1> - MPI+OpenMP, based on the on-node NT algorithm - Tower-Plate form  - coloring to prevent race conditions
+istep: 10 temp: 5.996896e-03 energy: -6.936451e+00 pressure: -6.638247e+00 1434301743.771
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 16 10 131072 1.056370 1.052982 0.000000 0.000200 0.003188 1240777.635788 77548.602237 PERF_SUMMARY 0.000000
+
+
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# max_same: 480
+# Coloring the bins and marking local ones:
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 18
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0523 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 0.1110 seconds
+total number of neighbors is 102594304
+force compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_hma<1> - MPI+OpenMP, based on the on-node NT algorithm - Tower-Plate form  - coloring to prevent race conditions
+istep: 10 temp: 5.996825e-03 energy: -6.936451e+00 pressure: -6.638247e+00 1434301747.245
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 18 10 131072 0.953745 0.950512 0.000000 0.000219 0.003014 1374287.493874 76349.305215 PERF_SUMMARY 0.000000
+
+
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# max_same: 480
+# Coloring the bins and marking local ones:
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 20
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0471 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 0.1005 seconds
+force comptotal number of neighbors is 102594304
+force compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_hma<1> - MPI+OpenMP, based on the on-node NT algorithm - Tower-Plate form  - coloring to prevent race conditions
+istep: 10 temp: 5.996887e-03 energy: -6.936451e+00 pressure: -6.638247e+00 1434301750.531
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 20 10 131072 0.899719 0.896424 0.000000 0.000211 0.003084 1456810.404360 72840.520218 PERF_SUMMARY 0.000000
+
+

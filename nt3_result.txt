@@ -1,0 +1,660 @@
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 1
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.8323 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 1.7773 seconds
+total number of neighbors is 102594304
+force comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_halfneigh<1,1> - MPI only, temp var to update fi, enables vectorization
+istep: 10 temp: 5.998164e-03 energy: -6.936452e+00 pressure: -6.638247e+00 1434301935.549
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 1 10 131072 13.251620 13.237545 0.000000 0.000044 0.014031 98910.170578 98910.170578 PERF_SUMMARY 0.000000
+
+
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 2
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.4264 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 0.9134 seconds
+total number of neighbors is 102594304
+force compforce comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_halfneigh_threaded<1,1> - MPI+OpenMP (atomics for fj update), temp var to update fi, enables vectorization
+istep: 10 temp: 5.998164e-03 energy: -6.936452e+00 pressure: -6.638247e+00 1434301953.099
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 2 10 131072 6.830808 6.819040 0.000000 0.000083 0.011685 191883.591046 95941.795523 PERF_SUMMARY 0.000000
+
+
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 4
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.2205 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 0.4803 seconds
+total number of neighbors is 102594304
+force compforce compforce compforce comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_halfneigh_threaded<1,1> - MPI+OpenMP (atomics for fj update), temp var to update fi, enables vectorization
+istep: 10 temp: 5.998164e-03 energy: -6.936452e+00 pressure: -6.638247e+00 1434301963.331
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 4 10 131072 3.589016 3.582083 0.000000 0.000107 0.006826 365203.168321 91300.792080 PERF_SUMMARY 0.000000
+
+
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 6
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.1510 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 0.3160 seconds
+total number of neighbors is 102594304
+force compforce compforce compforce compforce compforce comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_halfneigh_threaded<1,1> - MPI+OpenMP (atomics for fj update), temp var to update fi, enables vectorization
+istep: 10 temp: 5.998164e-03 energy: -6.936452e+00 pressure: -6.638247e+00 1434301969.881
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 6 10 131072 2.468003 2.462905 0.000000 0.000122 0.004975 531085.246505 88514.207751 PERF_SUMMARY 0.000000
+
+
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 8
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.1166 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 0.2446 seconds
+total number of neighbors is 102594304
+force compforce compforce compforce compforce compforce compforce compforce comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_halfneigh_threaded<1,1> - MPI+OpenMP (atomics for fj update), temp var to update fi, enables vectorization
+istep: 10 temp: 5.998164e-03 energy: -6.936452e+00 pressure: -6.638247e+00 1434301975.191
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 8 10 131072 1.899724 1.895515 0.000000 0.000173 0.004036 689952.853893 86244.106737 PERF_SUMMARY 0.000000
+
+
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 10
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0937 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 0.1965 seconds
+total number of neighbors is 102594304
+force compforce compforce compforce compforce compforce compforce compforce compforce compforce comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_halfneigh_threaded<1,1> - MPI+OpenMP (atomics for fj update), temp var to update fi, enables vectorization
+istep: 10 temp: 5.998164e-03 energy: -6.936452e+00 pressure: -6.638247e+00 1434301979.771
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 10 10 131072 1.524299 1.520615 0.000000 0.000174 0.003510 859883.707551 85988.370755 PERF_SUMMARY 0.000000
+
+
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 12
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0783 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 0.1643 seconds
+total number of neighbors is 102594304
+force compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_halfneigh_threaded<1,1> - MPI+OpenMP (atomics for fj update), temp var to update fi, enables vectorization
+istep: 10 temp: 5.998164e-03 energy: -6.936452e+00 pressure: -6.638247e+00 1434301983.983
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 12 10 131072 1.276635 1.273094 0.000000 0.000212 0.003329 1026699.150707 85558.262559 PERF_SUMMARY 0.000000
+
+
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 14
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0674 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 0.1410 seconds
+total number of neighbors is 102594304
+force compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_halfneigh_threaded<1,1> - MPI+OpenMP (atomics for fj update), temp var to update fi, enables vectorization
+istep: 10 temp: 5.998164e-03 energy: -6.936452e+00 pressure: -6.638247e+00 1434301987.821
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 14 10 131072 1.098782 1.095435 0.000000 0.000190 0.003158 1192884.416935 85206.029781 PERF_SUMMARY 0.000000
+
+
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 16
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0591 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 0.1239 seconds
+total number of neighbors is 102594304
+force compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_halfneigh_threaded<1,1> - MPI+OpenMP (atomics for fj update), temp var to update fi, enables vectorization
+istep: 10 temp: 5.998164e-03 energy: -6.936452e+00 pressure: -6.638247e+00 1434301991.478
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 16 10 131072 0.966596 0.963325 0.000000 0.000229 0.003042 1356016.193309 84751.012082 PERF_SUMMARY 0.000000
+
+
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 18
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0525 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 0.1106 seconds
+total number of neighbors is 102594304
+force compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_halfneigh_threaded<1,1> - MPI+OpenMP (atomics for fj update), temp var to update fi, enables vectorization
+istep: 10 temp: 5.998164e-03 energy: -6.936452e+00 pressure: -6.638247e+00 1434301994.906
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 18 10 131072 0.875784 0.872545 0.000000 0.000204 0.003035 1496624.874739 83145.826374 PERF_SUMMARY 0.000000
+
+
+# Create System:
+# Neighbor Setup: 
+	# box size:  53.75  53.75  53.75
+	# bin size:  2.07  2.07  2.07
+	# mbins  :  36  36  36
+	# bin ext:  4  4  4
+	# stmax=  729
+	# mbinxlo  mbinylo  mbinzlo=  -5 -5 -5
+	# mbinxhi  mbinyhi  mbinzhi=  30 30 30
+	# xlo xhi nlocbinx:  5 31 27
+	# ylo zhi nlocbiny:  5 31 27
+	# zlo zhi nlocbinz:  5 31 27
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 26 26 26
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 20
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 131072
+	# System size: 53.75 53.75 53.75 (unit cells: 32 32 32)
+	# Density: 0.844200
+	# Force cutoff: 7.000000
+	# Timestep size: 0.005555
+# Technical Settings: 
+	# Neigh cutoff: 8.000000
+	# Half neighborlists: 1
+	# Neighbor bins: 26 26 26
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+ com exchange com exchange ...sort neigh buildneighbor estimation took 0.0474 seconds
+total estimated number of neighbors is 102594304
+neighbor generation took 0.1009 seconds
+total number of neighbors is 102594304
+force compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce compforce comp# Starting dynamics ...
+# Timestep T U P Time
+istep: 0 temp: 0.000000e+00 energy: -6.927454e+00 pressure: -6.656301e+00  0.000
+using lj force routine: compute_halfneigh_threaded<1,1> - MPI+OpenMP (atomics for fj update), temp var to update fi, enables vectorization
+istep: 10 temp: 5.998164e-03 energy: -6.936452e+00 pressure: -6.638247e+00 1434301998.197
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 20 10 131072 0.789255 0.785077 0.000000 0.000214 0.003964 1660705.049481 83035.252474 PERF_SUMMARY 0.000000
+
+

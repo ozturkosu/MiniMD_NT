@@ -1,0 +1,438 @@
+# Create System:
+# Neighbor Setup: 
+	# box size:  28.95  28.95  28.95
+	# bin size:  4.82  4.82  4.82
+	# mbins  :  10  10  10
+	# bin ext:  1  1  1
+	# stmax=  27
+	# mbinxlo  mbinylo  mbinzlo=  -2 -2 -2
+	# mbinxhi  mbinyhi  mbinzhi=  7 7 7
+	# xlo xhi nlocbinx:  2 8 7
+	# ylo zhi nlocbiny:  2 8 7
+	# zlo zhi nlocbinz:  2 8 7
+	# max_same: 80
+# Checking the pair stencil:
+	#Pair      d1 -    d2
+	  0     -10 -   100
+	  1     -10 -   -99
+	  2     -10 -     1
+	  3     -10 -   101
+	  4       0 -    10
+	  5       0 -   100
+	  6       0 -   -99
+	  7       0 -     1
+	  8       0 -   101
+	  9      10 -   100
+	  10      10 -   -99
+	  11      10 -     1
+	  12      10 -   101
+# Coloring the bins and marking local ones:
+	# bin(2,2,2): binno=223 color=3
+	# bin(2,2,3): binno=323 color=1
+	# bin(2,2,4): binno=423 color=4
+	# bin(2,2,5): binno=523 color=2
+	# bin(2,2,6): binno=623 color=0
+	# bin(2,2,7): binno=723 color=3
+	# bin(2,2,8): binno=823 color=1
+	# bin(2,3,2): binno=233 color=4
+	# bin(2,3,3): binno=333 color=2
+	# bin(2,3,4): binno=433 color=0
+	# bin(2,3,5): binno=533 color=3
+	# bin(2,3,6): binno=633 color=1
+	# bin(2,3,7): binno=733 color=4
+	# bin(2,3,8): binno=833 color=2
+	# bin(2,4,2): binno=243 color=0
+	# bin(2,4,3): binno=343 color=3
+	# bin(2,4,4): binno=443 color=1
+	# bin(2,4,5): binno=543 color=4
+	# bin(2,4,6): binno=643 color=2
+	# bin(2,4,7): binno=743 color=0
+	# bin(2,4,8): binno=843 color=3
+	# bin(2,5,2): binno=253 color=1
+	# bin(2,5,3): binno=353 color=4
+	# bin(2,5,4): binno=453 color=2
+	# bin(2,5,5): binno=553 color=0
+	# bin(2,5,6): binno=653 color=3
+	# bin(2,5,7): binno=753 color=1
+	# bin(2,5,8): binno=853 color=4
+	# bin(2,6,2): binno=263 color=2
+	# bin(2,6,3): binno=363 color=0
+	# bin(2,6,4): binno=463 color=3
+	# bin(2,6,5): binno=563 color=1
+	# bin(2,6,6): binno=663 color=4
+	# bin(2,6,7): binno=763 color=2
+	# bin(2,6,8): binno=863 color=0
+	# bin(2,7,2): binno=273 color=3
+	# bin(2,7,3): binno=373 color=1
+	# bin(2,7,4): binno=473 color=4
+	# bin(2,7,5): binno=573 color=2
+	# bin(2,7,6): binno=673 color=0
+	# bin(2,7,7): binno=773 color=3
+	# bin(2,7,8): binno=873 color=1
+	# bin(2,8,2): binno=283 color=4
+	# bin(2,8,3): binno=383 color=2
+	# bin(2,8,4): binno=483 color=0
+	# bin(2,8,5): binno=583 color=3
+	# bin(2,8,6): binno=683 color=1
+	# bin(2,8,7): binno=783 color=4
+	# bin(2,8,8): binno=883 color=2
+	# bin(3,2,2): binno=224 color=8
+	# bin(3,2,3): binno=324 color=6
+	# bin(3,2,4): binno=424 color=9
+	# bin(3,2,5): binno=524 color=7
+	# bin(3,2,6): binno=624 color=5
+	# bin(3,2,7): binno=724 color=8
+	# bin(3,2,8): binno=824 color=6
+	# bin(3,3,2): binno=234 color=9
+	# bin(3,3,3): binno=334 color=7
+	# bin(3,3,4): binno=434 color=5
+	# bin(3,3,5): binno=534 color=8
+	# bin(3,3,6): binno=634 color=6
+	# bin(3,3,7): binno=734 color=9
+	# bin(3,3,8): binno=834 color=7
+	# bin(3,4,2): binno=244 color=5
+	# bin(3,4,3): binno=344 color=8
+	# bin(3,4,4): binno=444 color=6
+	# bin(3,4,5): binno=544 color=9
+	# bin(3,4,6): binno=644 color=7
+	# bin(3,4,7): binno=744 color=5
+	# bin(3,4,8): binno=844 color=8
+	# bin(3,5,2): binno=254 color=6
+	# bin(3,5,3): binno=354 color=9
+	# bin(3,5,4): binno=454 color=7
+	# bin(3,5,5): binno=554 color=5
+	# bin(3,5,6): binno=654 color=8
+	# bin(3,5,7): binno=754 color=6
+	# bin(3,5,8): binno=854 color=9
+	# bin(3,6,2): binno=264 color=7
+	# bin(3,6,3): binno=364 color=5
+	# bin(3,6,4): binno=464 color=8
+	# bin(3,6,5): binno=564 color=6
+	# bin(3,6,6): binno=664 color=9
+	# bin(3,6,7): binno=764 color=7
+	# bin(3,6,8): binno=864 color=5
+	# bin(3,7,2): binno=274 color=8
+	# bin(3,7,3): binno=374 color=6
+	# bin(3,7,4): binno=474 color=9
+	# bin(3,7,5): binno=574 color=7
+	# bin(3,7,6): binno=674 color=5
+	# bin(3,7,7): binno=774 color=8
+	# bin(3,7,8): binno=874 color=6
+	# bin(3,8,2): binno=284 color=9
+	# bin(3,8,3): binno=384 color=7
+	# bin(3,8,4): binno=484 color=5
+	# bin(3,8,5): binno=584 color=8
+	# bin(3,8,6): binno=684 color=6
+	# bin(3,8,7): binno=784 color=9
+	# bin(3,8,8): binno=884 color=7
+	# bin(4,2,2): binno=225 color=3
+	# bin(4,2,3): binno=325 color=1
+	# bin(4,2,4): binno=425 color=4
+	# bin(4,2,5): binno=525 color=2
+	# bin(4,2,6): binno=625 color=0
+	# bin(4,2,7): binno=725 color=3
+	# bin(4,2,8): binno=825 color=1
+	# bin(4,3,2): binno=235 color=4
+	# bin(4,3,3): binno=335 color=2
+	# bin(4,3,4): binno=435 color=0
+	# bin(4,3,5): binno=535 color=3
+	# bin(4,3,6): binno=635 color=1
+	# bin(4,3,7): binno=735 color=4
+	# bin(4,3,8): binno=835 color=2
+	# bin(4,4,2): binno=245 color=0
+	# bin(4,4,3): binno=345 color=3
+	# bin(4,4,4): binno=445 color=1
+	# bin(4,4,5): binno=545 color=4
+	# bin(4,4,6): binno=645 color=2
+	# bin(4,4,7): binno=745 color=0
+	# bin(4,4,8): binno=845 color=3
+	# bin(4,5,2): binno=255 color=1
+	# bin(4,5,3): binno=355 color=4
+	# bin(4,5,4): binno=455 color=2
+	# bin(4,5,5): binno=555 color=0
+	# bin(4,5,6): binno=655 color=3
+	# bin(4,5,7): binno=755 color=1
+	# bin(4,5,8): binno=855 color=4
+	# bin(4,6,2): binno=265 color=2
+	# bin(4,6,3): binno=365 color=0
+	# bin(4,6,4): binno=465 color=3
+	# bin(4,6,5): binno=565 color=1
+	# bin(4,6,6): binno=665 color=4
+	# bin(4,6,7): binno=765 color=2
+	# bin(4,6,8): binno=865 color=0
+	# bin(4,7,2): binno=275 color=3
+	# bin(4,7,3): binno=375 color=1
+	# bin(4,7,4): binno=475 color=4
+	# bin(4,7,5): binno=575 color=2
+	# bin(4,7,6): binno=675 color=0
+	# bin(4,7,7): binno=775 color=3
+	# bin(4,7,8): binno=875 color=1
+	# bin(4,8,2): binno=285 color=4
+	# bin(4,8,3): binno=385 color=2
+	# bin(4,8,4): binno=485 color=0
+	# bin(4,8,5): binno=585 color=3
+	# bin(4,8,6): binno=685 color=1
+	# bin(4,8,7): binno=785 color=4
+	# bin(4,8,8): binno=885 color=2
+	# bin(5,2,2): binno=226 color=8
+	# bin(5,2,3): binno=326 color=6
+	# bin(5,2,4): binno=426 color=9
+	# bin(5,2,5): binno=526 color=7
+	# bin(5,2,6): binno=626 color=5
+	# bin(5,2,7): binno=726 color=8
+	# bin(5,2,8): binno=826 color=6
+	# bin(5,3,2): binno=236 color=9
+	# bin(5,3,3): binno=336 color=7
+	# bin(5,3,4): binno=436 color=5
+	# bin(5,3,5): binno=536 color=8
+	# bin(5,3,6): binno=636 color=6
+	# bin(5,3,7): binno=736 color=9
+	# bin(5,3,8): binno=836 color=7
+	# bin(5,4,2): binno=246 color=5
+	# bin(5,4,3): binno=346 color=8
+	# bin(5,4,4): binno=446 color=6
+	# bin(5,4,5): binno=546 color=9
+	# bin(5,4,6): binno=646 color=7
+	# bin(5,4,7): binno=746 color=5
+	# bin(5,4,8): binno=846 color=8
+	# bin(5,5,2): binno=256 color=6
+	# bin(5,5,3): binno=356 color=9
+	# bin(5,5,4): binno=456 color=7
+	# bin(5,5,5): binno=556 color=5
+	# bin(5,5,6): binno=656 color=8
+	# bin(5,5,7): binno=756 color=6
+	# bin(5,5,8): binno=856 color=9
+	# bin(5,6,2): binno=266 color=7
+	# bin(5,6,3): binno=366 color=5
+	# bin(5,6,4): binno=466 color=8
+	# bin(5,6,5): binno=566 color=6
+	# bin(5,6,6): binno=666 color=9
+	# bin(5,6,7): binno=766 color=7
+	# bin(5,6,8): binno=866 color=5
+	# bin(5,7,2): binno=276 color=8
+	# bin(5,7,3): binno=376 color=6
+	# bin(5,7,4): binno=476 color=9
+	# bin(5,7,5): binno=576 color=7
+	# bin(5,7,6): binno=676 color=5
+	# bin(5,7,7): binno=776 color=8
+	# bin(5,7,8): binno=876 color=6
+	# bin(5,8,2): binno=286 color=9
+	# bin(5,8,3): binno=386 color=7
+	# bin(5,8,4): binno=486 color=5
+	# bin(5,8,5): binno=586 color=8
+	# bin(5,8,6): binno=686 color=6
+	# bin(5,8,7): binno=786 color=9
+	# bin(5,8,8): binno=886 color=7
+	# bin(6,2,2): binno=227 color=3
+	# bin(6,2,3): binno=327 color=1
+	# bin(6,2,4): binno=427 color=4
+	# bin(6,2,5): binno=527 color=2
+	# bin(6,2,6): binno=627 color=0
+	# bin(6,2,7): binno=727 color=3
+	# bin(6,2,8): binno=827 color=1
+	# bin(6,3,2): binno=237 color=4
+	# bin(6,3,3): binno=337 color=2
+	# bin(6,3,4): binno=437 color=0
+	# bin(6,3,5): binno=537 color=3
+	# bin(6,3,6): binno=637 color=1
+	# bin(6,3,7): binno=737 color=4
+	# bin(6,3,8): binno=837 color=2
+	# bin(6,4,2): binno=247 color=0
+	# bin(6,4,3): binno=347 color=3
+	# bin(6,4,4): binno=447 color=1
+	# bin(6,4,5): binno=547 color=4
+	# bin(6,4,6): binno=647 color=2
+	# bin(6,4,7): binno=747 color=0
+	# bin(6,4,8): binno=847 color=3
+	# bin(6,5,2): binno=257 color=1
+	# bin(6,5,3): binno=357 color=4
+	# bin(6,5,4): binno=457 color=2
+	# bin(6,5,5): binno=557 color=0
+	# bin(6,5,6): binno=657 color=3
+	# bin(6,5,7): binno=757 color=1
+	# bin(6,5,8): binno=857 color=4
+	# bin(6,6,2): binno=267 color=2
+	# bin(6,6,3): binno=367 color=0
+	# bin(6,6,4): binno=467 color=3
+	# bin(6,6,5): binno=567 color=1
+	# bin(6,6,6): binno=667 color=4
+	# bin(6,6,7): binno=767 color=2
+	# bin(6,6,8): binno=867 color=0
+	# bin(6,7,2): binno=277 color=3
+	# bin(6,7,3): binno=377 color=1
+	# bin(6,7,4): binno=477 color=4
+	# bin(6,7,5): binno=577 color=2
+	# bin(6,7,6): binno=677 color=0
+	# bin(6,7,7): binno=777 color=3
+	# bin(6,7,8): binno=877 color=1
+	# bin(6,8,2): binno=287 color=4
+	# bin(6,8,3): binno=387 color=2
+	# bin(6,8,4): binno=487 color=0
+	# bin(6,8,5): binno=587 color=3
+	# bin(6,8,6): binno=687 color=1
+	# bin(6,8,7): binno=787 color=4
+	# bin(6,8,8): binno=887 color=2
+	# bin(7,2,2): binno=228 color=8
+	# bin(7,2,3): binno=328 color=6
+	# bin(7,2,4): binno=428 color=9
+	# bin(7,2,5): binno=528 color=7
+	# bin(7,2,6): binno=628 color=5
+	# bin(7,2,7): binno=728 color=8
+	# bin(7,2,8): binno=828 color=6
+	# bin(7,3,2): binno=238 color=9
+	# bin(7,3,3): binno=338 color=7
+	# bin(7,3,4): binno=438 color=5
+	# bin(7,3,5): binno=538 color=8
+	# bin(7,3,6): binno=638 color=6
+	# bin(7,3,7): binno=738 color=9
+	# bin(7,3,8): binno=838 color=7
+	# bin(7,4,2): binno=248 color=5
+	# bin(7,4,3): binno=348 color=8
+	# bin(7,4,4): binno=448 color=6
+	# bin(7,4,5): binno=548 color=9
+	# bin(7,4,6): binno=648 color=7
+	# bin(7,4,7): binno=748 color=5
+	# bin(7,4,8): binno=848 color=8
+	# bin(7,5,2): binno=258 color=6
+	# bin(7,5,3): binno=358 color=9
+	# bin(7,5,4): binno=458 color=7
+	# bin(7,5,5): binno=558 color=5
+	# bin(7,5,6): binno=658 color=8
+	# bin(7,5,7): binno=758 color=6
+	# bin(7,5,8): binno=858 color=9
+	# bin(7,6,2): binno=268 color=7
+	# bin(7,6,3): binno=368 color=5
+	# bin(7,6,4): binno=468 color=8
+	# bin(7,6,5): binno=568 color=6
+	# bin(7,6,6): binno=668 color=9
+	# bin(7,6,7): binno=768 color=7
+	# bin(7,6,8): binno=868 color=5
+	# bin(7,7,2): binno=278 color=8
+	# bin(7,7,3): binno=378 color=6
+	# bin(7,7,4): binno=478 color=9
+	# bin(7,7,5): binno=578 color=7
+	# bin(7,7,6): binno=678 color=5
+	# bin(7,7,7): binno=778 color=8
+	# bin(7,7,8): binno=878 color=6
+	# bin(7,8,2): binno=288 color=9
+	# bin(7,8,3): binno=388 color=7
+	# bin(7,8,4): binno=488 color=5
+	# bin(7,8,5): binno=588 color=8
+	# bin(7,8,6): binno=688 color=6
+	# bin(7,8,7): binno=788 color=9
+	# bin(7,8,8): binno=888 color=7
+	# bin(8,2,2): binno=229 color=3
+	# bin(8,2,3): binno=329 color=1
+	# bin(8,2,4): binno=429 color=4
+	# bin(8,2,5): binno=529 color=2
+	# bin(8,2,6): binno=629 color=0
+	# bin(8,2,7): binno=729 color=3
+	# bin(8,2,8): binno=829 color=1
+	# bin(8,3,2): binno=239 color=4
+	# bin(8,3,3): binno=339 color=2
+	# bin(8,3,4): binno=439 color=0
+	# bin(8,3,5): binno=539 color=3
+	# bin(8,3,6): binno=639 color=1
+	# bin(8,3,7): binno=739 color=4
+	# bin(8,3,8): binno=839 color=2
+	# bin(8,4,2): binno=249 color=0
+	# bin(8,4,3): binno=349 color=3
+	# bin(8,4,4): binno=449 color=1
+	# bin(8,4,5): binno=549 color=4
+	# bin(8,4,6): binno=649 color=2
+	# bin(8,4,7): binno=749 color=0
+	# bin(8,4,8): binno=849 color=3
+	# bin(8,5,2): binno=259 color=1
+	# bin(8,5,3): binno=359 color=4
+	# bin(8,5,4): binno=459 color=2
+	# bin(8,5,5): binno=559 color=0
+	# bin(8,5,6): binno=659 color=3
+	# bin(8,5,7): binno=759 color=1
+	# bin(8,5,8): binno=859 color=4
+	# bin(8,6,2): binno=269 color=2
+	# bin(8,6,3): binno=369 color=0
+	# bin(8,6,4): binno=469 color=3
+	# bin(8,6,5): binno=569 color=1
+	# bin(8,6,6): binno=669 color=4
+	# bin(8,6,7): binno=769 color=2
+	# bin(8,6,8): binno=869 color=0
+	# bin(8,7,2): binno=279 color=3
+	# bin(8,7,3): binno=379 color=1
+	# bin(8,7,4): binno=479 color=4
+	# bin(8,7,5): binno=579 color=2
+	# bin(8,7,6): binno=679 color=0
+	# bin(8,7,7): binno=779 color=3
+	# bin(8,7,8): binno=879 color=1
+	# bin(8,8,2): binno=289 color=4
+	# bin(8,8,3): binno=389 color=2
+	# bin(8,8,4): binno=489 color=0
+	# bin(8,8,5): binno=589 color=3
+	# bin(8,8,6): binno=689 color=1
+	# bin(8,8,7): binno=789 color=4
+	# bin(8,8,8): binno=889 color=2
+	# system_size = -1
+	# nx  ny  nz  = -1 -1 -1
+	# neighbor_size     = -1
+	# nbinx nbiny nbinz = 6 6 6
+# Done .... 
+# miniMD-Intel 1.2 (MPI+OpenMP) output ...
+# Run Settings: 
+	# MPI processes: 1
+	# OpenMP threads: 1
+	# Inputfile: in.lj.miniMD
+	# Datafile: None
+# Physics Settings: 
+	# ForceStyle: LJ
+	# Force Parameters: 1.00 1.00
+	# Units: LJ
+	# Atoms: 2048
+	# System size: 28.95 28.95 28.95 (unit cells: 8 8 8)
+	# Density: 0.084420
+	# Force cutoff: 2.500000
+	# Timestep size: 0.005000
+# Technical Settings: 
+	# Neigh cutoff: 2.800000
+	# Half neighborlists: 1
+	# Neighbor bins: 6 6 6
+	# Neighbor frequency: 20
+	# Sorting frequency: 20
+	# Thermo frequency: 100
+	# Ghost Newton: 1
+	# Use intrinsics: 0
+	# Do safe exchange: 0
+	# Size of float: 8
+
+	# halfneigh = 1
+	# ghost_newton = 1
+current maxneighs is 219
+current maxneighs is 244
+neighbor estimation took 0.1675 seconds
+total estimated number of neighbors is 32072
+default method totalneighs = 12288
+# Starting dynamics ...
+# Timestep T U P Time
+0 1.440000e+00 0.000000e+00 1.215054e-01  0.000
+using lj force routine: compute_halfneigh<1,1> - MPI only, temp var to update fi, enables vectorization
+	# halfneigh = 1
+	# ghost_newton = 1
+default method totalneighs = 11725
+	# halfneigh = 1
+	# ghost_newton = 1
+default method totalneighs = 8718
+	# halfneigh = 1
+	# ghost_newton = 1
+default method totalneighs = 6266
+	# halfneigh = 1
+	# ghost_newton = 1
+default method totalneighs = 5714
+	# halfneigh = 1
+	# ghost_newton = 1
+default method totalneighs = 5880
+100 1.533560e+00 -1.813472e-01 1.150086e-01  0.030
+
+
+# Performance Summary:
+# MPI_proc OMP_threads nsteps natomst_total t_force t_neigh t_comm t_otherperformance perf/thread grep_string t_extra
+1 1 100 2048 0.030395 0.015909 0.010325 0.002542 0.001620 6737943.454183 6737943.454183 PERF_SUMMARY 0.000847
+
+
